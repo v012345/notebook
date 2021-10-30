@@ -1,2 +1,4 @@
 README
 使用WebHooks通知服务器拉取代码
+如何使用markdown
+用GitHub Pages展示文章
