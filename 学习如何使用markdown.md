@@ -23,13 +23,9 @@ ___粗斜体文本___
 
 以下是分割线  
 ***
-
 * * *
-
 *****
-
 - - -
-
 ----------
 
 这是删除线
@@ -120,3 +116,57 @@ echo 123
 
 [1]: http://www.google.com/
 [Google]: http://www.Google.com/
+
+![alt 属性文本](图片地址)
+
+![alt 属性文本](图片地址 "可选标题")
+
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png)
+
+![RUNOOB 图标](http://static.runoob.com/images/runoob-logo.png "RUNOOB")
+
+这个链接用 1 作为网址变量 [RUNOOB][2].
+然后在文档的结尾为变量赋值（网址）
+
+[2]: http://static.runoob.com/images/runoob-logo.png
+
+
+-: 设置内容和标题栏居右对齐。  
+:- 设置内容和标题栏居左对齐。  
+:-: 设置内容和标题栏居中对齐。  
+
+
+|  表头   | 表头  |
+|  ----  | ----  |
+| 单元格  | 单元格 |
+| 单元格  | 单元格 |
+
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+
+支持的 HTML 元素
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
+
+目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br>等 ，如：
+
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+
+**文本加粗** 
+\*\* 正常显示星号 \*\*
+
+Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
+
+\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
