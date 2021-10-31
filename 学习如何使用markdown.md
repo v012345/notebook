@@ -105,3 +105,18 @@ $(document).ready(function () {
 echo 123
 >
 ```
+
+
+这是一个链接 [Google](https://www.google.com)  
+<https://www.google.com>
+
+
+这个链接用 1 作为网址变量 [Google][1]  
+这个链接用 Google 作为网址变量 [Google][Google]  
+然后在文档的结尾为变量赋值（网址）  
+
+
+
+
+[1]: http://www.google.com/
+[Google]: http://www.Google.com/
