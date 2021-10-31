@@ -51,3 +51,9 @@ page{
 单位 rpx 是以750px的基准的
 
 ## [生命周期](https://uniapp.dcloud.io/collocation/frame/lifecycle)
+<br />
+
+面目配置
+=======
+1.开起微信开发者工具的安全服务端口
+1.在HbuilderX中设置好微信开发工具的路径
