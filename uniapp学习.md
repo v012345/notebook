@@ -3,25 +3,23 @@
 ## 官方工具HbuilderX
 >[下载地址](https://www.dcloud.io/hbuilderx.html)
 ## [官方组件文档](https://uniapp.dcloud.io/component/)
-## 
-
+## 加入自定义组件
 ```
 project
-│   README.md
-│   file001.txt    
+└───components
+│   └───component1
+│   │   └───component1.vue
+│   └───component2
+│   └───...
 │
-└───folder1
-│   │   file011.txt
-│   │   file012.txt
-│   │
-│   └───subfolder1
-│       │   file111.txt
-│       │   file112.txt
-│       │   ...
-│   
-└───folder2
-    │   file021.txt
-    │   file022.txt
+└───pages
+└───static
+└───...
+```
+引入
+```javascript
+//@的意思是项目的根目录
+import component1 from '@/components/component1/component1.vue'
 ```
 
 
@@ -123,11 +121,11 @@ StackEdit extends the standard Markdown syntax by adding extra **Markdown extens
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
+|                  | ASCII                           | HTML                          |
+| ---------------- | ------------------------------- | ----------------------------- |
+| Single backticks | `'Isn't this fun?'`             | 'Isn't this fun?'             |
+| Quotes           | `"Isn't this fun?"`             | "Isn't this fun?"             |
+| Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
 
 
 ## KaTeX
