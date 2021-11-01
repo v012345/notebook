@@ -1,14 +1,20 @@
-安装cli
-npm install -g @vue/cli
-创建项目
-vue create vc.nightowl.name
-(vue2就行)
+## 安装
+```shell
+//全局安装cli
+$ npm install -g @vue/cli
+//创建项目
+$ vue create vc.nightowl.name
+//(vue2就行)
+```
+---
 
+## 引入elementUI
 
-===
-引入elementUI
-npm i element-ui
+```shell
+$ npm i element-ui
+```
 修改 babel.config.js
+```javascript
 module.exports = {
   presets: [
     '@vue/cli-plugin-babel/preset',
@@ -25,31 +31,44 @@ module.exports = {
     ]
   ]
 }
+```
 
-如果出现这个问题
-Error: Cannot find module 'babel-plugin-component'
-npm view babel version
-
-npm i babel-plugin-component -D
+如果出现这个问题  
+`Error: Cannot find module 'babel-plugin-component'`
+```shell
+$ npm view babel version
+$ npm i babel-plugin-component -D
 # For babel6 
-npm i babel-plugin-component@0 -D
-===
+$ npm i babel-plugin-component@0 -D
+```
 
+## 引入less
+```shell
+$ npm i less
+//引入less-loader 锁在7就行
+$ npm i less-loader@7
+```
 
-引入less
-npm i less
-引入less-loader 锁在7就行
-npm i less-loader@7
+## 引入vueX
+```shell
+$ npm i vuex
+```
+## 引入vue-router
+```shell
+$ npm i vue-router
+```
 
-引入vueX
-npm i vuex
-
-引入vue-router
-npm i vue-router
-
-
-生成 vue.config.js
+## 生成 vue.config.js
+```javascript
 module.exports = {
     //关闭语法检查
     lintOnSave: false,
 }
+```
+
+# 使用
+## 父组件捕获子组件发出的事件
+
+```html
+<child @childEmitEventName="parentMethod"></child>
+```
