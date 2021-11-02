@@ -72,3 +72,7 @@ module.exports = {
 ```html
 <child @childEmitEventName="parentMethod"></child>
 ```
+
+## $nextTick
+> 写法可以去看[官网](https://vuejs.org/v2/api/#vm-nextTick)
+> 作用大概就是，在一个方法中，改变某个值时，真实dom还没变，这个时候去拿真实dom中的值明显不对，`this.$nextTick(function(){})`可以保证真实dom刷新后再去执行里面的回调
