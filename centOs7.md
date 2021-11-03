@@ -1,3 +1,4 @@
+```json
 {
   "inbounds": [
     {
@@ -72,8 +73,7 @@
     }
   ]
 }
-
-
+```
 
 curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
 curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh
