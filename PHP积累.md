@@ -1,4 +1,3 @@
-
 ## PHP curl封装
 ```php
 <?php
@@ -79,4 +78,19 @@ function patchurl($url, $data)
     return $output;
 }
 
+```
+
+## 手动打印日志
+```php
+function toLog($data, $somethingElse = "")
+{
+    $fname = "/tmp/uuuuuuuid/log" . DIRECTORY_SEPARATOR;
+    if (!is_dir($fname)) {
+        mkdir($fname, 0777, true);
+    }
+    $value = print_r($data, true);
+    $time =  date("Y-m-d H:i:s", time());
+    file_put_contents($fname . date("Ymd", time()) . '.log', "@" . $time . " " . $somethingElse . " : " . $value . PHP_EOL, FILE_APPEND);
+    @unlink($fname . date("Ymd", strtotime("last month")) . '.log');
+}
 ```
