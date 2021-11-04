@@ -21,3 +21,8 @@
    <el-button type="primary">Primary</el-button>
    <el-button type="success">Success</el-button>
    ```
+1. [使用过渡效果时](https://element.eleme.io/#/en-US/component/transition)
+   ```javascript
+   import CollapseTransition from 'element-ui/lib/transitions/collapse-transition';
+   Vue.component(CollapseTransition.name, CollapseTransition)
+   ```

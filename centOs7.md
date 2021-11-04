@@ -74,16 +74,17 @@
   ]
 }
 ```
-
-curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
-curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh
-
-bash install-release.sh
-bash install-dat-release.sh
-
-# firewall-cmd --zone=public --permanent --add-service=http
-# firewall-cmd --zone=public --permanent --add-service=https
-# firewall-cmd --reload
+```shell
+$ curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh
+$ curl -O https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-dat-release.sh
+$ bash install-release.sh
+$ bash install-dat-release.sh
+```
+```shell
+$ firewall-cmd --zone=public --permanent --add-service=http
+$ firewall-cmd --zone=public --permanent --add-service=https
+$ firewall-cmd --reload
+```
 
 #教程地址
 https://toutyrater.github.io/advanced/tls.html
