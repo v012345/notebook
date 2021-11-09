@@ -94,3 +94,6 @@ function toLog($data, $somethingElse = "")
     @unlink($fname . date("Ymd", strtotime("last month")) . '.log');
 }
 ```
+
+在关闭连接后，继续运行php脚本
+

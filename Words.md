@@ -1,4 +1,8 @@
 demand  
 Gotcha  
 role  
-
+guarantee  
+propagation  
+culminate  
+composition  
+scratch  
