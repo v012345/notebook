@@ -3,7 +3,7 @@
 这里的按需引入完全是手动按需引入，我想先玩明白了手动引入之后，再用babel的自动按需要引入的功能，所以下面方法的安装依赖可能用不到第二个命令
 1. 安装依赖
    > `npm install element-ui`  
-   > `npm install babel-plugin-component`
+   > ~~`npm install babel-plugin-component`~~ //这个可选,看报错不
 1. 建立 `/src/plugins/element.js` 文件件
    ```javascript
    import Vue from "vue";
