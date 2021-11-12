@@ -97,3 +97,4 @@ function toLog($data, $somethingElse = "")
 
 在关闭连接后，继续运行php脚本
 
+set_time_limit(15);
