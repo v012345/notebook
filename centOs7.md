@@ -118,3 +118,24 @@ history -c
 > /var/log/lastlog
 >/var/log/btmp
 >/var/log/wtmp
+
+# git
+> ## [Install Latest Git (2.x) from source on CentOS 7](https://computingforgeeks.com/how-to-install-latest-version-of-git-git-2-x-on-centos-7/)
+
+## check current version
+`git --version`
+## remove old git
+`yum remove git`  
+`yum remove git-*` //可以试一下,一般没什么用
+## add end point CentOS 7 repo
+`yum install https://packages.endpoint.com/rhel/7/os/x86_64/endpoint-repo-1.9-1.x86_64.rpm`
+## list git version
+`yum list git` //看看库里的版本,也看看库启没启用
+## install
+`yum install git`
+
+
+
+
+
+
