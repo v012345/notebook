@@ -7,3 +7,6 @@ culminate
 composition  
 scratch  
 skew  
+occupation  
+constellation  
+poem  
