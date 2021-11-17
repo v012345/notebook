@@ -96,5 +96,5 @@ function toLog($data, $somethingElse = "")
 ```
 
 在关闭连接后，继续运行php脚本
-
+ set_time_limit(0); //无限请求超时时间
 set_time_limit(15);
