@@ -4,4 +4,7 @@
 > 之后把五笔中的兼容老版本打开  
 > 移除拼音输入法  
 > OK
-> 
+
+## 资源监视器
+> 可以用Task Manager -> Performance -> right click -> graph summary view  
+> 也可以用 xbar game bar 中的窗口 , 把窗口 pin 上就行 (recommend)  
