@@ -9,3 +9,10 @@
     -webkit-line-clamp: 2;
 }
 ```
+```css
+div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+```
