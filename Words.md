@@ -18,3 +18,5 @@ benefit
 dial  
 concern  
 substantially  
+Invitee  
+Inviter
