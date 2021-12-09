@@ -16,3 +16,11 @@ div{
     text-overflow: ellipsis;
 }
 ```
+## 背景图全覆盖,不重复
+```css
+div{
+    background-image: url(./y0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+```
