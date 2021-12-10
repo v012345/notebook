@@ -23,3 +23,4 @@ Inviter
 collar  
 aim  
 pending  
+deprecate
