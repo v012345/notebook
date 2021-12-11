@@ -8,3 +8,6 @@
 ## 资源监视器
 > 可以用Task Manager -> Performance -> right click -> graph summary view  
 > 也可以用 xbar game bar 中的窗口 , 把窗口 pin 上就行 (recommend)  
+
+## windows 11 capture screen
+Windows Key-Shift-S
