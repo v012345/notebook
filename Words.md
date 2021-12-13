@@ -23,4 +23,5 @@ Inviter
 collar  
 aim  
 pending  
-deprecate
+deprecate  
+celsius
