@@ -25,6 +25,8 @@ aim
 pending  
 deprecate  
 celsius  
-cloak
+cloak  
+album  
+stature
 
 
