@@ -29,6 +29,8 @@ cloak
 album  
 stature  
 Quotation mark  
+escort  
+comparison  
 
 
 
