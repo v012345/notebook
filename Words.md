@@ -27,6 +27,8 @@ deprecate
 celsius  
 cloak  
 album  
-stature
+stature  
+Quotation mark  
+
 
 
