@@ -1,3 +1,1 @@
-欢迎来到德莱联盟
-====
-![Primetime Draven](https://ddragon.leagueoflegends.com/cdn/img/champion/loading/Draven_3.jpg)
+笨学生用来记录学习中的点点滴滴的笔记本
