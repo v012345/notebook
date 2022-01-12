@@ -33,6 +33,10 @@ escort
 comparison  
 intervention  
 antonym  
+applicant  
+payer  
+payee  
+
 
 
 
