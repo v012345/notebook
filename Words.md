@@ -50,7 +50,11 @@ diagonal
 replication  
 inquiry  
 widget  
-enumerations 
+enumerations  
+revive  
+mob  
+residual  
+
 
 
 
