@@ -43,7 +43,7 @@ dendritic
 WYSIWYG  
 prefab  
 atlas  
-marquee  
+marquee  (2) 跑马灯
 gizmo  
 vertex  
 diagonal  
@@ -66,6 +66,7 @@ aura
 workbench  
 parentheses  
 unceasingly  
+coupon  
 
 
 
