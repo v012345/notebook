@@ -54,6 +54,18 @@ enumerations
 revive  
 mob  
 residual  
+translucent  
+tweak  
+deceive  
+obtuse  
+dazzling  
+illustrated  
+stipulate  
+debut  
+aura  
+workbench  
+parentheses  
+unceasingly  
 
 
 
