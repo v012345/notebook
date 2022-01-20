@@ -67,6 +67,8 @@ workbench
 parentheses  
 unceasingly  
 coupon  
+stale  
+
 
 
 
