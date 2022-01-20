@@ -67,6 +67,9 @@ workbench
 parentheses  
 unceasingly  
 coupon  
+refine  
+exquisite  
+gorgeous
 
 
 
