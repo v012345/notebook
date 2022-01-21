@@ -81,6 +81,7 @@ function patchurl($url, $data)
 ```
 
 ## 手动打印日志
+> 这是我从一个真老程序员那里看到,我非常不建议这么用,他这么用,单纯是他用习惯了
 ```php
 function toLog($data, $somethingElse = "")
 {
