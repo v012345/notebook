@@ -68,6 +68,8 @@ parentheses
 unceasingly  
 coupon  
 stale  
+lizard  
+
 
 
 
