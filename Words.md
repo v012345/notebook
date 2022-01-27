@@ -73,7 +73,8 @@ gorgeous
 stale  
 lizard  
 accomplish  
-
+clerk  
+staff  
 
 
 
