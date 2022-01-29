@@ -75,6 +75,9 @@ lizard
 accomplish  
 clerk  
 staff  
+leverage  
+parity  
+tenancy  
 
 
 
