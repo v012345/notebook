@@ -80,6 +80,8 @@ parity
 tenancy  
 audit  
 ripple  
+franchise  
+franchisee  
 
 
 
