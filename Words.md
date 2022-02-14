@@ -82,6 +82,8 @@ audit
 ripple  
 franchise  
 franchisee  
+survivor  
+
 
 
 
