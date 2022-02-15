@@ -29,3 +29,5 @@ $ swapoff /root/swapfile # 关闭指定swap
 ```console
 $ free
 ```
+
+

@@ -83,6 +83,8 @@ ripple
 franchise  
 franchisee  
 survivor  
+deviate  
+
 
 
 
