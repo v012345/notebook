@@ -84,6 +84,10 @@ franchise
 franchisee  
 survivor  
 deviate  
+pluck  
+invoice  
+evaluate  
+
 
 
 
