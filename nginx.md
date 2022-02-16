@@ -36,6 +36,20 @@ $ nginx -s reload
             > 一个server块可以配置多个location块.  
             > 这块的主要作用是基于nginx服务器接收到的请求字符串(例如server_name/uri-string),对虚拟主机名称(也可以是IP别名)之后的字符串(例如前面的/uri-string)进行匹配,对特定的请求进行处理.地址定向,数据缓存和应答控制等功能,还有许多第三方模块的配置也在这里进行.
 
+## 反向代理
+就是代理转发了`proxy_pass http://api.nightowl.name;`
+
+## location
+```nginx
+location [ = | ~ | ~* | ^~ ] uri {
+
+}
+```
+1. `=` : 用于不含正则表达式的uri前,要求请求字符串与uri严格匹配,如果成功,就停止继续向下搜索并立即处理该请求.
+2. `~` : 用于表示uri包含正则表达式,并且区分大小写.
+3. `~*` : 表示uri包含正则表达式,但不区分大小写.
+4. `^~` : 用于不含正则表达式的uri前,要求nginx服务器找到标识uri和请求字符串匹配度最高的location后,立即使用此location处理请求,而不再使用location块中的正则uri和请求字符串做匹配.
+
 
 
 
