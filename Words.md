@@ -87,6 +87,7 @@ deviate
 pluck  
 invoice  
 evaluate  
+discretionary  
 
 
 
