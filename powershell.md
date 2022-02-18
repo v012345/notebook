@@ -4,3 +4,9 @@
 ### Step 2
 > run the below command  
 > `set-executionpolicy remotesigned`
+
+## kill by process name
+```powershell
+taskkill /IM "nginx.exe" /F
+```
+
