@@ -54,7 +54,50 @@ location [ = | ~ | ~* | ^~ ] uri {
 先匹配非正则的情况,找到最长匹配的location.  
 再去匹配正则情况,如果匹配上了,就用这个location,如果没有,就用之前的最长匹配.
 
+### try_files
+这里以 laravel 官网的配置为例
+```nginx
+server {
+    listen 80;
+    listen [::]:80;
+    server_name example.com;
+    root /srv/example.com/public;
  
+    add_header X-Frame-Options "SAMEORIGIN";
+    add_header X-Content-Type-Options "nosniff";
+ 
+    index index.php;
+ 
+    charset utf-8;
+ 
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+ 
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location = /robots.txt  { access_log off; log_not_found off; }
+ 
+    error_page 404 /index.php;
+ 
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php/php8.0-fpm.sock;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+ 
+    location ~ /\.(?!well-known).* {
+        deny all;
+    }
+}
+```
+用户通过 url `http://example.com/user/1` 请求 nginx  
+nginx 请求分到上面的 server , 截取 `$uri = /user/1`  
+location 匹配结果为 `/`  
+try_files 开始起作用:  
+1. 根据上下文的 `root`和 try_files 的第一个参数来生成真实的`uri = /srv/example.com/public/user/1`如果文件存在就返回.如果不存在,进入下一步.
+2. 用户`root`和第二个参数生成`/srv/example.com/public/user/1/`,然后根据上下文的`index`
+
+
 
 
 
