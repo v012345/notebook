@@ -54,7 +54,25 @@ location [ = | ~ | ~* | ^~ ] uri {
 先匹配非正则的情况,找到最长匹配的location.  
 再去匹配正则情况,如果匹配上了,就用这个location,如果没有,就用之前的最长匹配.
 
- 
+### 简单的负载均衡
+```nginx
+http {
+    upstream myapp1 {
+        server srv1.example.com;
+        server srv2.example.com;
+        server srv3.example.com;
+    }
+
+    server {
+        listen 80;
+
+        location / {
+            proxy_pass http://myapp1;
+        }
+    }
+}
+```
+
 
 
 
