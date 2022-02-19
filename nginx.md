@@ -72,6 +72,15 @@ http {
     }
 }
 ```
+
+### expires
+可以使浏览器缓存过期时间,减少与服务器之间的请求和流量.  
+具体定义为,给一个资源设定一个过期时间,也就是说无需去服务端验证,直接通过浏览器自身确认是否过期即可,所以不会产生额外的流量.此种方法非常适合不经常变动的资源.(如果经常更新的文件,不建议使用expires来缓存).举个例子,设置为3d,表示在这3天内访问这个URL,发送一个请求,比对服务器该文件最后更新时间没有变化,则不会从服务器抓取,返回状态码304,如果有修改,则直接从服务器重新下载,返回状态码200.
+
+### autoindex on
+会列出文件
+
+
 ### try_files
 这里以 laravel 官网的配置为例
 ```nginx
@@ -113,7 +122,11 @@ nginx 请求分到上面的 server , 截取 `$uri = /user/1`
 location 匹配结果为 `/`  
 try_files 开始起作用:  
 1. 根据上下文的 `root`和 try_files 的第一个参数来生成真实的`uri = /srv/example.com/public/user/1`如果文件存在就返回.如果不存在,进入下一步.
-2. 用户`root`和第二个参数生成`/srv/example.com/public/user/1/`,然后根据上下文的`index`
+2. 用户`root`和第二个参数生成`/srv/example.com/public/user/1/`,看否存在这个文件夹,如果没有的话,进入第三个参数,因为这是最后一个参数,所以会发生内部请求,`/index.php`同时带有`query`参数,location的匹配结果是转发给`php-fpm`.回到之前,如果`/srv/example.com/public/user/1/`存在,那么加重定向,返回301,新的url为`http://example.com/user/1/`,进入第三步.
+3. 匹配到`/`,一定有`/srv/example.com/public/user/1/`,因为没有带来具体文件,且`autoindex on`没有配置,所以会在上下文的`index`中尝试,如果`index`都试完了,没有的话,就返回403,如果有的话,比如`index.php`,那么加触发一次内部请求,最后进入`location ~ \.php$`
+
+
+
 
 
 
