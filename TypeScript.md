@@ -7,4 +7,15 @@ npm i -g typescript
 tsc tsFileName.ts
 ```
 
+### 类型声明
+```TypeScript
+let a : number;
+a = 123;
+let b : number = 123;
+let c = 123; // 自动给c加上number类型
+```
+
+
+
+
 
