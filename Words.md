@@ -94,7 +94,31 @@ sophisticated
 guideline  
 scenario  
 separate  
-redundant
+redundant  
+clamp  
+premultiply  
+interpolation  
+proportion  
+appropriate  
+shimmering  
+magnification  
+abrupt  
+translucent  
+robust  
+spine  
+Hypothetically  
+achieve  
+cull  
+frustum  
+
+
+
+
+
+
+
+
+
 
 
 
