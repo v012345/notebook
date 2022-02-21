@@ -110,6 +110,18 @@ Hypothetically
 achieve  
 cull  
 frustum  
+engagement  
+circumstance  
+acquire  
+turret  
+barrel  
+arena  
+appearance  
+
+
+
+
+
 
 
 
