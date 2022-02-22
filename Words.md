@@ -117,6 +117,7 @@ turret
 barrel  
 arena  
 appearance  
+equip  
 
 
 
