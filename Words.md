@@ -118,6 +118,13 @@ barrel
 arena  
 appearance  
 equip  
+chart  
+barter  
+gain  
+loot  
+bundle  
+persist  
+
 
 
 
