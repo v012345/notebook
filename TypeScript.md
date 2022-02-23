@@ -77,7 +77,52 @@ function a():never{ // 真的什么都不返回!!还void都不是
     throw new Error('bug!');
 }
 ```
+```ts
+let a: object;
+let a = {}; //一般不这么用,没意思
 
+let b: {id: number, name?: string}; //name可选
+b = { id: 1 }; //这么用
+
+let c: {id: number, [key: string]:any };
+c = {id: 1, name: "c" , age: 18}; //[key: string]:any 就表示任意啦
+```
+```ts
+// 类似object , 还有Function ,虽上面总类型中没有列出来
+let a: Function; // 没什么意思
+let b: (a:number , b:number) => boolean; // 用类似箭头函数的形式,指明参数与返回值
+b = function (n1:number,n2:number):boolean{
+    return n1 >= n2
+}
+```
+```ts
+// 数组
+let a: string[]; // 字符串数组
+let b: Array<string>; // 同上
+```
+```ts
+// tuple, 就是固定长度的数组, 效率上好一些
+let a: [string,string,number];
+a = ["a","b",123];
+```
+```ts
+// enum, 默认为0,1,2,当然也可以自己定,一般就对应数字
+enum Gender { Male, Female, Other = "fff" };
+console.log(Gender.Male); //0
+```
+```ts
+// & ,和 | 对应
+let a : string & number; // 这样没什么意义,但是下面的
+let b : { id:number } & { name:string }; // 表示两个都要有
+let b = { id : 1, name: "b"};
+```
+```ts
+// type 关键字,自定义类型
+type T = 1| 2| 3| 4; //1-4的字面量
+let a:T;
+a = 1; // ok
+a = 5; // no
+```
 
 
 
