@@ -111,7 +111,7 @@ achieve
 cull  
 frustum  
 engagement  
-circumstance  
+circumstance   
 acquire  
 turret  
 barrel  
@@ -124,6 +124,8 @@ gain
 loot  
 bundle  
 persist  
+granular  
+
 
 
 
