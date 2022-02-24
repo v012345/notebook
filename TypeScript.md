@@ -124,6 +124,61 @@ a = 1; // ok
 a = 5; // no
 ```
 
+### 编译选项
+加上`-w`参数,会启动监视模式,监视指定文件,进行"实时"编译
+```console
+tsc fileName.ts -w
+```
+上面的方式,对整体项目来说,有点不实用.
+
+另一种方式
+在项目根目录生成`tsconfig.json`文件
+
+`/tsconfig.json`
+```json
+{
+
+}
+```
+之后运行
+```console
+tsc
+```
+会对整个项目进行编译.
+
+运行
+```console
+tsc -w
+```
+会对整个项目进行监视,实时编译
+
+下面讲讲`tsconfig.json`具体的的配置项
+```json
+{
+    
+    // 指定哪些ts文件需要被编译
+    // 比如, "./scr/**/*", 注意 ** 指任意路径, * 指任意文件,所以这个下, 当前scr目录下的任意目录的任意文件
+    //
+    //
+    
+    "include":["./scr/**/*"],
+
+    // 排除指定文件
+    // 默认值为 ["node_modules","bower_modules","jspm_modules"] , 所以一般这个选项都不用设置.
+    "exclude":[],
+
+    // 引入一个外引配置文件
+    // 引入 configs下的base.json中的所有配置信息
+    "extends":"./configs/base",
+
+    // 指定要编译的文件,一般文件少时才用到,和include有点像
+    // 一般用不到
+    "files":["app.ts","view.ts"],
+}
+```
+
+
+
 
 
 
