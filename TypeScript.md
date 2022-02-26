@@ -226,95 +226,150 @@ tsc -w
     }
 }
 ```
-
-### webpack
-大项目一般都用到的打包工具
-
-新建一个空项目(文件夹),在项目根目录生成webpack的配置文件
-`package.json`
-```console
-npm init -y
-```
-安装开发依赖`-D`现在好像可以不写了
-```console
-npm i -D webpack webpack-cli typescript ts-loader
-```
-安装完成后`/package.json`会多个下面的内容
-```json
-{
-    ...
-    "devDependences":{
-        "ts-loadder":"...",
-        ...
+### class
+```ts
+class Cat{
+    color:string;
+    static BREED:string = "Dragon Li";// 可以和 readonly 连和 static readonly preporty: type = ??;
+    readonly owner: string = "No One"; // 类型 final
+    constructor(c:string){
+        this.color = c
     }
-    ...
-}
-```
-生成webpack的配置文件,在项目根目录下手动生成`webpack.config.js`
-```js
-// node 提供路径管理模块
-const path = require('path');
-
-// webpack中的所有配置信息都应该写在这里
-module.exports = {
-
-    // 指定入口文件
-    entry:"./src/index.ts",
-
-    // 指定打包文件所在目录
-    output: {
-        // 指定打包文件的目录
-        path: path.resolve(__dirname,"dist"), // 就是 path: "./dist" 啦
-
-        // 打包后文件的文件名
-        filename: "bundle.js",
-    },
-
-    // 指定webpack打包时要使用的模块
-    module:{
-        // 指定要加载的规则
-        rules:[
-            {
-                // 用正则指定要作用的文件
-                test: /\.ts$/,
-                // 指定符合上面正则的文件要使用的loader
-                use: "ts-loader",
-                // 指定要排除的文件
-                exclude: /node_modules/
-            }
-        ]
+    poop(){
     }
 }
 ```
-因为这是个新项目啦,所以请手动在项目根目录生成`tsconfig.json`,简易配置
-```json
-{
-    "compilerOptions": {
-        "module": "es2015",
-        "target": "es2015",
-        "strict": true,
+### extends
+```ts
+class A {}
+class B extends A{}
+```
+
+### super
+```ts
+class A {
+    a:string;
+    constructor(a:string){this.a = a}
+    f(){}
+}
+
+
+class B extends A{
+    b:string;
+    constructor(a:string,b:string){
+        super(a);
+        this.b = b
+    }
+    m(){
+        super.f();
     }
 }
 ```
-同时在`/package.json`中加入
-```json
-{
-    ...
-    "scripts":{
-        ...
-        "build":"webpack",
-        ...
+
+### abstract
+```ts
+abstract class A {
+    a:string;
+    constructor(a:string){this.a = a}
+    abstract f():void
+}
+
+
+class B extends A{
+    b:string;
+    constructor(a:string,b:string){
+        super(a);
+        this.b = b
     }
-    ...
+    f(){}
 }
 ```
 
-使用
-```console
-npm run build
+### interface
+可以代替关键字`type`使用,注意";",当然还有高级用法啦  
+可以"重名",相当把两个合一起去实现
+```ts
+interface I {
+    name:string;
+}
+interface I {
+    age: number;
+}
+const o:I = {
+    name:"123",
+    age:10
+}
+```
+接口和抽象类很像,区别是接口中的属性不能在初始值,方法不能有方法体,抽象类的属性可以在初始值
+```ts
+interface I {
+    name: string;
+    poop():void;
+}
+class Human implements I {
+    name: string;
+    constructor(n){this.name = n}
+    poop(){}
+}
 ```
 
+### public , private , protected
+先说一下 `getter` 和 `setter`, 除了可以手动写 getter 和 setter 外, 还可以这样
+```ts
+class A {
+    private _age : number = 10;
+    get age(){ return this._age } //我没试 不加_的情况
+    set age(age:number){ this._age = age }
+}
+let a = new A();
+console.log(a.age); // 10
+a.age = 11;
+console.log(a.age); // 11
+```
+一个语法糖
+```ts
+class A {
+    constructor(public age:number){}
+}
+let a = new A(10);
+console.log(a.age); //10
+```
 
+### 泛型
+"广泛的类型",英文是什么我不知道
+```ts
+function f<T>(a:T):T{
+    return a;
+}
+f(10); //10
+f<string>("123"); //123
+// 上面两条是简单用法,我比较喜欢第二个
+// 还可以 extends 接口 或者 类
+interface I {
+    name:string;
+}
+class C {
+    age:number;
+}
+function fn<T extends I, K extends C>(a:T,b:K):void{}
+
+class A extends C implements I {
+    name:string = "A";
+    age:number = 10;
+}
+
+new a = new A();
+
+fn<A,A>(a,a);
+```
+创建类时也可以用泛型
+```ts
+class A<T>{
+    name:T;
+    constructor(name:T){ this.name = name; }
+}
+let a = new A<string>("a");
+```
 
 
 
