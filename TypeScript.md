@@ -174,6 +174,56 @@ tsc -w
     // 指定要编译的文件,一般文件少时才用到,和include有点像
     // 一般用不到
     "files":["app.ts","view.ts"],
+
+    /**
+    * 编译器选项,很重要
+    */
+    "compilerOptions": {
+        // 指定被编译为的ES版本,想看全部参数,就给个错误值,报错信息里有
+        "target": "es2015",
+
+        // 指定要使用的模块化的规范,看全部参数的方法同上
+        "module": "es2015",
+
+        // 指定项目要用的库,一般不写出来,注掉,用默认就好,看全部参数的方法同上
+        "lib":[],
+
+        // 用来指定编译后文件所在的目录,我不知道会不会保留目录结构
+        "outDir":"./dist",
+
+        //将代码合并为一个文件输出,所有的全局作用域中的代码会合并到同一个文件中,注意,模块化是不好合并的,只支持"module"为"system" or "amd" 的规范时才行,所以这个配置一般也不用,注掉就行,回合的工作,让打包工具去做
+        "outFile":"./dist/app.js",
+
+        // 是否编译 include 里的 js 文件, 默认为不编译
+        "allowJs": false,
+
+        // 是否也检查 js 文件的代码规范, 默认为不检查
+        "checkJs": false,
+
+        // 是否连同注释一起编译,默认为一起编译
+        "removeComments": false,
+
+        // 不生成编译后的文件,默认为生成,如果不生成,一般只用来检查代码是否会在编译环节出问题.
+        "noEmit":false,
+
+        // 当编译发生错误时,不生成编译后的文件,默认为生成
+        "noEmitOnError":false,
+
+        // 严格检查的总开关,可以设为 true ,之后分项去关
+        "strict":true,
+
+        // 严格模式,开启的话,就是比较严格,但性能上好一些,默认不开
+        "alwaysStrict":true,
+
+        // 如果不开的话,代码定义变量时,如果不写类型,就自动定义成 any ,这样不好,所以开启这个, 必须写上类型,就算是 any 也要手动写上
+        "noImplicitAny":true,
+
+        // 不允许不明确类型的this, 由于在 function 中 ,this 会因为不同的调用方式,指向不同的东西,一会是 Window 一会是对象,所以现在必须显式的指用这个this的类型.如, function f(this:Window){console.log(this);}
+        "noImplicitThis":true,
+
+        // 严格检查空值,有的时候,比如 getElementById 之类,会返回null,这个时候如果直接使用返回值就会报错,所以要先,用 if(a !== null){...} 或者 a?.someMethod() 的方法 我还是第一次知道这个?的写法
+        "strictNullChecks":true,
+    }
 }
 ```
 
