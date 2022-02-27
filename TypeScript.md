@@ -174,11 +174,202 @@ tsc -w
     // 指定要编译的文件,一般文件少时才用到,和include有点像
     // 一般用不到
     "files":["app.ts","view.ts"],
+
+    /**
+    * 编译器选项,很重要
+    */
+    "compilerOptions": {
+        // 指定被编译为的ES版本,想看全部参数,就给个错误值,报错信息里有
+        "target": "es2015",
+
+        // 指定要使用的模块化的规范,看全部参数的方法同上
+        "module": "es2015",
+
+        // 指定项目要用的库,一般不写出来,注掉,用默认就好,看全部参数的方法同上
+        "lib":[],
+
+        // 用来指定编译后文件所在的目录,我不知道会不会保留目录结构
+        "outDir":"./dist",
+
+        //将代码合并为一个文件输出,所有的全局作用域中的代码会合并到同一个文件中,注意,模块化是不好合并的,只支持"module"为"system" or "amd" 的规范时才行,所以这个配置一般也不用,注掉就行,回合的工作,让打包工具去做
+        "outFile":"./dist/app.js",
+
+        // 是否编译 include 里的 js 文件, 默认为不编译
+        "allowJs": false,
+
+        // 是否也检查 js 文件的代码规范, 默认为不检查
+        "checkJs": false,
+
+        // 是否连同注释一起编译,默认为一起编译
+        "removeComments": false,
+
+        // 不生成编译后的文件,默认为生成,如果不生成,一般只用来检查代码是否会在编译环节出问题.
+        "noEmit":false,
+
+        // 当编译发生错误时,不生成编译后的文件,默认为生成
+        "noEmitOnError":false,
+
+        // 严格检查的总开关,可以设为 true ,之后分项去关
+        "strict":true,
+
+        // 严格模式,开启的话,就是比较严格,但性能上好一些,默认不开
+        "alwaysStrict":true,
+
+        // 如果不开的话,代码定义变量时,如果不写类型,就自动定义成 any ,这样不好,所以开启这个, 必须写上类型,就算是 any 也要手动写上
+        "noImplicitAny":true,
+
+        // 不允许不明确类型的this, 由于在 function 中 ,this 会因为不同的调用方式,指向不同的东西,一会是 Window 一会是对象,所以现在必须显式的指用这个this的类型.如, function f(this:Window){console.log(this);}
+        "noImplicitThis":true,
+
+        // 严格检查空值,有的时候,比如 getElementById 之类,会返回null,这个时候如果直接使用返回值就会报错,所以要先,用 if(a !== null){...} 或者 a?.someMethod() 的方法 我还是第一次知道这个?的写法
+        "strictNullChecks":true,
+    }
+}
+```
+### class
+```ts
+class Cat{
+    color:string;
+    static BREED:string = "Dragon Li";// 可以和 readonly 连和 static readonly preporty: type = ??;
+    readonly owner: string = "No One"; // 类型 final
+    constructor(c:string){
+        this.color = c
+    }
+    poop(){
+    }
+}
+```
+### extends
+```ts
+class A {}
+class B extends A{}
+```
+
+### super
+```ts
+class A {
+    a:string;
+    constructor(a:string){this.a = a}
+    f(){}
+}
+
+
+class B extends A{
+    b:string;
+    constructor(a:string,b:string){
+        super(a);
+        this.b = b
+    }
+    m(){
+        super.f();
+    }
 }
 ```
 
+### abstract
+```ts
+abstract class A {
+    a:string;
+    constructor(a:string){this.a = a}
+    abstract f():void
+}
 
 
+class B extends A{
+    b:string;
+    constructor(a:string,b:string){
+        super(a);
+        this.b = b
+    }
+    f(){}
+}
+```
+
+### interface
+可以代替关键字`type`使用,注意";",当然还有高级用法啦  
+可以"重名",相当把两个合一起去实现
+```ts
+interface I {
+    name:string;
+}
+interface I {
+    age: number;
+}
+const o:I = {
+    name:"123",
+    age:10
+}
+```
+接口和抽象类很像,区别是接口中的属性不能在初始值,方法不能有方法体,抽象类的属性可以在初始值
+```ts
+interface I {
+    name: string;
+    poop():void;
+}
+class Human implements I {
+    name: string;
+    constructor(n){this.name = n}
+    poop(){}
+}
+```
+
+### public , private , protected
+先说一下 `getter` 和 `setter`, 除了可以手动写 getter 和 setter 外, 还可以这样
+```ts
+class A {
+    private _age : number = 10;
+    get age(){ return this._age } //我没试 不加_的情况
+    set age(age:number){ this._age = age }
+}
+let a = new A();
+console.log(a.age); // 10
+a.age = 11;
+console.log(a.age); // 11
+```
+一个语法糖
+```ts
+class A {
+    constructor(public age:number){}
+}
+let a = new A(10);
+console.log(a.age); //10
+```
+
+### 泛型
+"广泛的类型",英文是什么我不知道
+```ts
+function f<T>(a:T):T{
+    return a;
+}
+f(10); //10
+f<string>("123"); //123
+// 上面两条是简单用法,我比较喜欢第二个
+// 还可以 extends 接口 或者 类
+interface I {
+    name:string;
+}
+class C {
+    age:number;
+}
+function fn<T extends I, K extends C>(a:T,b:K):void{}
+
+class A extends C implements I {
+    name:string = "A";
+    age:number = 10;
+}
+
+new a = new A();
+
+fn<A,A>(a,a);
+```
+创建类时也可以用泛型
+```ts
+class A<T>{
+    name:T;
+    constructor(name:T){ this.name = name; }
+}
+let a = new A<string>("a");
+```
 
 
 
