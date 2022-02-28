@@ -135,6 +135,27 @@ fluently
 hydrate  
 chunk  
 cursor  
+scalar  
+vulnerability  
+issue  
+issuing  
+malicious  
+escalate  
+capsule  
+criteria  
+periodically  
+pretend  
+constraint  
+functionality 
+utilize  
+cumbersome  
+transaction  
+capability  
+suffix  
+
+
+
+
 
 
 

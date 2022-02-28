@@ -59,6 +59,47 @@ $model = Flight::where('legs', '>', 3)->firstOr(function () {
     // ...
 });
 ```
+### [Not Found Exceptions](https://laravel.com/docs/9.x/eloquent#not-found-exceptions)
+
+### [Retrieving Or Creating Models](https://laravel.com/docs/9.x/eloquent#retrieving-or-creating-models)
+
+### [Retrieving Aggregates](https://laravel.com/docs/9.x/eloquent#retrieving-aggregates)
+
+### [Examining Attribute Changes](https://laravel.com/docs/9.x/eloquent#examining-attribute-changes)
+
+### [Mass Assignment](https://laravel.com/docs/9.x/eloquent#mass-assignment)
+```php
+$flight = Flight::create(['name' => 'London to Paris']);
+$flight->fill(['name' => 'Amsterdam to Frankfurt']);
+```
+
+### [Allowing Mass Assignment](https://laravel.com/docs/9.x/eloquent#allowing-mass-assignment)
+
+
+### [Upserts](https://laravel.com/docs/9.x/eloquent#upserts)
+
+### [Soft Deleting](https://laravel.com/docs/9.x/eloquent#soft-deleting)
+
+### [Querying Soft Deleted Models](https://laravel.com/docs/9.x/eloquent#querying-soft-deleted-models)
+
+### [Pruning Models](https://laravel.com/docs/9.x/eloquent#pruning-models)
+有点不熟悉
+
+### [Replicating Models](https://laravel.com/docs/9.x/eloquent#replicating-models)
+
+### [Query Scopes](https://laravel.com/docs/9.x/eloquent#query-scopes)
+
+### [Comparing Models](https://laravel.com/docs/9.x/eloquent#comparing-models)
+
+### [Events](https://laravel.com/docs/9.x/eloquent#events)
+
+### [Observers](https://laravel.com/docs/9.x/eloquent#observers)
+
+### [Observers & Database Transactions](https://laravel.com/docs/9.x/eloquent#observers-and-database-transactions)
+
+### [Muting Events](https://laravel.com/docs/9.x/eloquent#muting-events)
+
+### [Saving A Single Model Without Events](https://laravel.com/docs/9.x/eloquent#saving-a-single-model-without-events)
 
 
 
