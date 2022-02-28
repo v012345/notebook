@@ -4,6 +4,11 @@ git pull <远程主机名> <远程分支名>:<本地分支名>
 
 如何进行pr!!!!
 
+### 清理没stage的文件和文件夹
+```console
+git clean -f -d
+```
+
 删除当前目录下没有被track过的文件和文件夹
 ```console
 git clean -df

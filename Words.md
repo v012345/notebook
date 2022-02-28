@@ -134,6 +134,8 @@ Composite
 fluently  
 hydrate  
 chunk  
+cursor  
+
 
 
 

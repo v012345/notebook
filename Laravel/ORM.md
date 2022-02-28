@@ -31,4 +31,35 @@ foreach ($flights as $flight) {
 ### [Chunking Results](https://laravel.com/docs/9.x/eloquent#chunking-results)
 
 
----- to see [Chunking Using Lazy Collections](https://laravel.com/docs/9.x/eloquent#chunking-results)
+### [Chunking Using Lazy Collections](https://laravel.com/docs/9.x/eloquent#chunking-results)
+
+### [Cursors](https://laravel.com/docs/9.x/eloquent#cursors)
+
+### [Subquery Selects](https://laravel.com/docs/9.x/eloquent#subquery-selects)
+
+### [Subquery Ordering](https://laravel.com/docs/9.x/eloquent#subquery-selects)
+
+
+### [Retrieving Single Models / Aggregates](https://laravel.com/docs/9.x/eloquent#retrieving-single-models)
+```PHP
+use App\Models\Flight;
+ 
+// Retrieve a model by its primary key...
+$flight = Flight::find(1);
+ 
+// Retrieve the first model matching the query constraints...
+$flight = Flight::where('active', 1)->first();
+ 
+// Alternative to retrieving the first model matching the query constraints...
+$flight = Flight::firstWhere('active', 1);
+```
+Sometimes you may wish to retrieve the first result of a query or perform some other action if no results are found. The firstOr method will return the first result matching the query or, if no results are found, execute the given closure. The value returned by the closure will be considered the result of the firstOr method:
+```php
+$model = Flight::where('legs', '>', 3)->firstOr(function () {
+    // ...
+});
+```
+
+
+
+
