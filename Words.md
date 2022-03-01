@@ -152,7 +152,7 @@ cumbersome
 transaction  
 capability  
 suffix  
-
+rarity  
 
 
 
