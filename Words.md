@@ -153,6 +153,12 @@ transaction
 capability  
 suffix  
 rarity  
+indelible  
+bid  
+pricing  
+retain  
+
+
 
 
 
