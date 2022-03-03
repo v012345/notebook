@@ -158,6 +158,14 @@ bid
 pricing  
 retain  
 refactoring
+slightly  
+derive  
+pivot  
+counterpart  
+presence  
+escalation  
+polymorphic  
+
 
 
 

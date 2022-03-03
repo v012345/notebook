@@ -6,3 +6,8 @@
 
 [has-one-through](https://laravel.com/docs/9.x/eloquent-relationships#has-one-through)
 
+[Many To Many Relationships](https://laravel.com/docs/9.x/eloquent-relationships#many-to-many)
+
+[Retrieving Intermediate Table Columns](https://laravel.com/docs/9.x/eloquent-relationships#retrieving-intermediate-table-columns)
+
+

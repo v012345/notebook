@@ -19,7 +19,7 @@ if (hash_equals($x_hub_signature_256, $signature)) {
 ```php
 echo shell_exec("whoami");
 ```
-之后运行下面的,就是在`/etc/sudoers.d/`下面生成`apache`文件,[参考](https://anto.online/code/how-to-run-php-script-root/)
+之后运行下面的,就是在[`/etc/sudoers.d/`](https://www.digitalocean.com/community/tutorials/how-to-edit-the-sudoers-file)下面生成`apache`文件,[参考](https://anto.online/code/how-to-run-php-script-root/)
 ```bash
 sudo visudo -f /etc/sudoers.d/apache
 ```
