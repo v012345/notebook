@@ -165,6 +165,28 @@ counterpart
 presence  
 escalation  
 polymorphic  
+evolve  
+fledged  
+quirk  
+oddity  
+humble  
+subtle  
+infer  
+trivial  
+exponentially  
+Predicate  
+peculiar  
+semantics  
+brevity  
+clarity  
+minutiae  
+concise  
+terminology  
+consume  
+Malformed  
+hybrid
+approach  
+intuitive  
 
 
 
