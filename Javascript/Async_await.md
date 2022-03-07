@@ -1,5 +1,5 @@
 [Using Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises)
-[Promises]()
+[Promises](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
 
 ### async
 So the async keyword is added to functions to tell them to return a promise rather than directly returning the value.
