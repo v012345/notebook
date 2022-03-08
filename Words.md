@@ -188,6 +188,16 @@ hybrid
 approach  
 intuitive  
 simultaneously  
+consumption  
+symmetry  
+flaw  
+fundamental  
+blame  
+allude  
+trade off
+overlap  
+
+
 
 
 

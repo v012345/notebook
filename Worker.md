@@ -1,0 +1,1 @@
+浏览器的worker[参考](https://developer.mozilla.org/en-US/docs/Web/API/Worker)
