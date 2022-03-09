@@ -31,7 +31,7 @@ stature
 Quotation mark  
 escort  
 comparison  
-intervention  
+intervention  (2)  
 antonym  
 applicant  
 payer  
@@ -51,7 +51,7 @@ replication
 inquiry  
 widget  
 enumerations  
-revive  
+revive  (2)  
 mob  
 residual  
 translucent  
@@ -196,6 +196,13 @@ blame
 allude  
 trade off
 overlap  
+frill  
+reiterate  
+Up until now  
+erased   
+concatenation  
+
+
 
 
 
