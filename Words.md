@@ -201,6 +201,12 @@ reiterate
 Up until now  
 erased   
 concatenation  
+pedant  
+pedantic  
+decent  
+inference  
+lenient  
+
 
 
 
