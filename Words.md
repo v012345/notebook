@@ -90,7 +90,7 @@ evaluate
 discretionary  
 mechanism  
 preceded  
-sophisticated  
+sophisticated  (2)
 guideline  
 scenario  
 separate  
@@ -206,6 +206,13 @@ pedantic
 decent  
 inference  
 lenient  
+immutable  
+collapse  
+distraction  
+density  
+profiling  
+endeavor  
+
 
 
 
