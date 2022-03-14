@@ -34,5 +34,11 @@ dnf module install nodejs:16
 
 ## Redis
 
+## php
+```conosole
+sudo dnf module reset php
+dnf module install php:remi-8.1
+```
+
 
 
