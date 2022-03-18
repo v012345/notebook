@@ -225,9 +225,14 @@ track
 prioritize  
 convey   
 in addition to  
-arbitrary  
+arbitrary  (2)
 spectrum  
 Suppress  
+Presenter  
+barrage  
+anchor  (live anchor)
+
+
 
 
 
