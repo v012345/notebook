@@ -85,3 +85,120 @@ SHOW VARIABLES LIKE 'sql_mode';
 ```
 只关心其中一个称之为ONLY_FULL_GROUP_BY的家伙。只要sql_mode的值里边有这个东东，MySQL服务器就“比较正常”（也就是不允许非分组列放到查询列表中），但是如果我们把这个东东从sql_mode系统变量中移除
 
+## 要列出所有数据库
+```sql
+SHOW DATABASES;
+```
+其中，information_schema、mysql、performance_schema和sys是系统库，不要去改动它们。其他的是用户创建的数据库。
+
+## 要创建一个新数据库，使用命令：
+```sql
+ CREATE DATABASE test;
+```
+
+## 对一个数据库进行操作时，要首先将其切换为当前数据库：
+```sql
+mysql> USE test;
+```
+
+## 列出当前数据库的所有表，使用命令：
+```
+SHOW TABLES;
+```
+
+## 要查看一个表的结构，使用命令：
+```
+DESC students;
+```
+
+## 可以使用以下命令查看创建表的SQL语句：
+```
+ SHOW CREATE TABLE students;
+```
+
+### 修改表就比较复杂。如果要给students表新增一列birth，使用：
+```sql
+ALTER TABLE students ADD COLUMN birth VARCHAR(10) NOT NULL;
+```
+
+## 要修改birth列，例如把列名改为birthday，类型改为VARCHAR(20)：
+```sql
+ALTER TABLE students CHANGE COLUMN birth birthday VARCHAR(20) NOT NULL;
+```
+
+## 插入或替换 
+如果我们希望插入一条新记录（INSERT），但如果记录已经存在，就先删除原记录，再插入新记录。此时，可以使用REPLACE语句，这样就不必先查询，再决定是否先删除再插入：
+```sql
+REPLACE INTO students (id, class_id, name, gender, score) VALUES (1, 1, '小明', 'F', 99);
+```
+若id=1的记录不存在，REPLACE语句将插入新记录，否则，当前id=1的记录将被删除，然后再插入新记录。
+
+
+## 插入或更新
+如果我们希望插入一条新记录（INSERT），但如果记录已经存在，就更新该记录，此时，可以使用INSERT INTO ... ON DUPLICATE KEY UPDATE ...语句：
+```sql
+INSERT INTO students (id, class_id, name, gender, score) VALUES (1, 1, '小明', 'F', 99) ON DUPLICATE KEY UPDATE name='小明', gender='F', score=99;
+```
+若id=1的记录不存在，INSERT语句将插入新记录，否则，当前id=1的记录将被更新，更新的字段由UPDATE指定。
+
+### 插入或忽略
+如果我们希望插入一条新记录（INSERT），但如果记录已经存在，就啥事也不干直接忽略，此时，可以使用INSERT IGNORE INTO ...语句：
+```sql
+INSERT IGNORE INTO students (id, class_id, name, gender, score) VALUES (1, 1, '小明', 'F', 99);
+```
+若id=1的记录不存在，INSERT语句将插入新记录，否则，不执行任何操作。
+
+## 快照
+如果想要对一个表进行快照，即复制一份当前表的数据到一个新表，可以结合CREATE TABLE和SELECT：
+```sql
+-- 对class_id=1的记录进行快照，并存储为新表students_of_class1:
+CREATE TABLE students_of_class1 SELECT * FROM students WHERE class_id=1;
+```
+新创建的表结构和SELECT使用的表结构完全一致。
+
+## 写入查询结果集
+如果查询结果集需要写入到表中，可以结合INSERT和SELECT，将SELECT语句的结果集直接插入到指定表中。
+
+例如，创建一个统计成绩的表statistics，记录各班的平均成绩：
+```sql
+CREATE TABLE statistics (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    class_id BIGINT NOT NULL,
+    average DOUBLE NOT NULL,
+    PRIMARY KEY (id)
+);
+```
+然后，我们就可以用一条语句写入各班的平均成绩：
+```sql
+INSERT INTO statistics (class_id, average) SELECT class_id, AVG(score) FROM students GROUP BY class_id;
+```
+确保INSERT语句的列和SELECT语句的列能一一对应，就可以在statistics表中直接保存查询的结果
+
+### 强制使用指定索引
+在查询的时候，数据库系统会自动分析查询语句，并选择一个最合适的索引。但是很多时候，数据库系统的查询优化器并不一定总是能使用最优索引。如果我们知道如何选择索引，可以使用FORCE INDEX强制查询使用指定的索引。例如：
+```sql
+ SELECT * FROM students FORCE INDEX (idx_class_id) WHERE class_id = 1 ORDER BY id DESC;
+```
+指定索引的前提是索引idx_class_id必须存在。
+
+## 事务
+对于单条SQL语句，数据库系统自动将其作为一个事务执行，这种事务被称为隐式事务。
+
+要手动把多条SQL语句作为一个事务执行，使用BEGIN开启一个事务，使用COMMIT提交一个事务，这种事务被称为显式事务，例如，把上述的转账操作作为一个显式事务：
+```sql
+BEGIN;
+UPDATE accounts SET balance = balance - 100 WHERE id = 1;
+UPDATE accounts SET balance = balance + 100 WHERE id = 2;
+COMMIT;
+```
+
+## 隔离级别
+对于两个并发执行的事务，如果涉及到操作同一条记录的时候，可能会发生问题。因为并发操作会带来数据的不一致性，包括脏读、不可重复读、幻读等。数据库系统提供了隔离级别来让我们有针对性地选择事务的隔离级别，避免数据不一致的问题。
+
+SQL标准定义了4种隔离级别，分别对应可能出现的数据不一致的情况：
+| Isolation Level  | 脏读（Dirty Read） | 不可重复读（Non Repeatable Read） | 幻读（Phantom Read） |
+| :--------------: | :----------------: | :-------------------------------: | :------------------: |
+| Read Uncommitted |        Yes         |                Yes                |         Yes          |
+|  Read Committed  |         -          |                Yes                |         Yes          |
+| Repeatable Read  |         -          |                 -                 |         Yes          |
+|   Serializable   |         -          |                 -                 |          -           |
