@@ -228,9 +228,10 @@ in addition to
 arbitrary  (2)
 spectrum  
 Suppress  
-Presenter  
+Presenter  (2)
 barrage  
 anchor  (live anchor)
+gossip  
 
 
 
