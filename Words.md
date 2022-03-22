@@ -232,6 +232,19 @@ Presenter  (2)
 barrage  
 anchor  (live anchor)
 gossip  
+divergent  
+immense  
+fragmentation  
+intuitive  
+generic  
+prerequisite  
+manufacturer  
+culprit  
+arbitrarily  
+eliminate  
+
+
+
 
 
 
