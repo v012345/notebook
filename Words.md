@@ -242,6 +242,20 @@ manufacturer
 culprit  
 arbitrarily  
 eliminate  
+turmoil  
+attachment  
+facility  
+camcorder  
+tethering  
+drastic  
+prominent  
+dictation  
+indication  
+superfluous  
+proven  
+
+
+
 
 
 
