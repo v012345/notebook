@@ -1,0 +1,1 @@
+[How to Install Genymotion Emulator and Add it’s Plugin to Android Studio](https://www.geeksforgeeks.org/how-to-install-genymotion-emulator-and-add-its-plugin-to-android-studio/)
