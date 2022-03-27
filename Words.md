@@ -31,7 +31,7 @@ stature
 Quotation mark  
 escort  
 comparison  
-intervention  (2)  
+intervention  (3)  
 antonym  
 applicant  
 payer  
@@ -254,6 +254,11 @@ indication
 superfluous  
 proven  
 dedicated  
+digest  
+significance  
+ordinate  
+dimension  
+mandatory  
 
 
 
