@@ -261,6 +261,9 @@ dimension
 mandatory  
 theoretical  
 shimmer  
+sentinel  
+shard  
+dictate  
 
 
 
