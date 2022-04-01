@@ -202,3 +202,47 @@ SQL标准定义了4种隔离级别，分别对应可能出现的数据不一致�
 |  Read Committed  |         -          |                Yes                |         Yes          |
 | Repeatable Read  |         -          |                 -                 |         Yes          |
 |   Serializable   |         -          |                 -                 |          -           |
+
+
+
+## [各种锁](https://www.modb.pro/db/55483)
+
+## [主从](https://www.modb.pro/db/55483)
+在master上给一个slave注册一个账号
+```sql
+GRANT REPLICATION SLAVE ON *.* TO 'slave1'@167.179.83.226 IDENTIFIED BY 'slave1Password';
+```
+CREATE USER 'replica'@'167.179.83.226' IDENTIFIED BY 'Qq_15521224344';
+
+GRANT REPLICATION SLAVE ON *.* TO 'replica'@'167.179.83.226';
+
+SHOW MASTER STATUS\G
+```
+File: mysql-bin.000004
+Position: 1037
+Binlog_Do_DB:
+Binlog_Ignore_DB:
+Executed_Gtid_Set:
+```
+```sql
+CHANGE MASTER TO
+MASTER_HOST='45.76.212.5' ,
+MASTER_USER='replica' ,
+MASTER_PASSWORD='Qq_15521224344' ,
+MASTER_LOG_FILE='mysql-bin.000004' ,
+MASTER_LOG_POS=1037;
+```
+
+bind-address =45.76.212.5
+server-id = 1
+log_bin =mysql-bin
+
+
+bind-address =167.179.83.226
+server-id = 2
+log_bin =mysql-bin
+
+
+----
+
+## 公网接入
