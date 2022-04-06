@@ -230,7 +230,7 @@ MASTER_HOST='45.76.212.5' ,
 MASTER_USER='replica' ,
 MASTER_PASSWORD='Qq_12233334444' ,
 MASTER_LOG_FILE='mysql-bin.000004' ,
-MASTER_LOG_POS=1037;
+MASTER_LOG_POS=1076978;
 ```
 
 bind-address =45.76.212.5
@@ -246,3 +246,16 @@ log_bin =mysql-bin
 ----
 
 ## 公网接入
+
+
+## 重新同步
+1. 锁主数据库
+```sql
+flush tables with read lock;
+```
+2. 解锁主数据库
+```sql
+unlock tables;
+```
+
+
