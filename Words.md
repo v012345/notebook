@@ -277,6 +277,9 @@ sanctum
 mutually  
 monolithic  
 cinch  
+cadence  
+telemetry  
+
 
 
 
