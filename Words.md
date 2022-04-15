@@ -279,6 +279,9 @@ monolithic
 cinch  
 cadence  
 telemetry  
+italicize  
+mount  
+
 
 
 
