@@ -228,7 +228,7 @@ in addition to
 arbitrary  (2)
 spectrum  
 Suppress  
-Presenter  (2)
+Presenter  (3)
 barrage  
 anchor  (live anchor)
 gossip  
@@ -281,6 +281,11 @@ cadence
 telemetry  
 italicize  
 mount  
+crucial  
+iteration  
+in spite of  
+drawback  
+
 
 
 
