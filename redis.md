@@ -7,4 +7,11 @@ Rocky 8
 ```console
 systemctl start redis.service
 ```
-##
+## redis-cli
+```console
+reids-cli
+```
+
+## 数据类型
+### 字符串
+String 是一组字节。在 Redis 数据库中，字符串是二进制安全的。这意味着它们具有已知长度，并且不受任何特殊终止字符的影响。可以在一个字符串中存储最多 512 兆字节的内容。
