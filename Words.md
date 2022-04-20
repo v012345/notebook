@@ -286,6 +286,10 @@ iteration
 in spite of  
 drawback  
 as intended  
+identical  
+paradigm  
+discrete  
+
 
 
 
