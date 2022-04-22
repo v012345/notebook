@@ -18,3 +18,14 @@ git clean -df
 ```console
 git checkout -b dev
 ```
+
+### 拉一个远程分支
+本地没有这个远程分支的情况
+```console
+git fetch origin branch-name
+```
+新建分支track,这个分支
+```console
+git checkout -b branch-name origin/branch-name
+```
+
