@@ -289,6 +289,9 @@ as intended
 identical  
 paradigm  
 discrete  
+isomorphic  
+intercept  
+
 
 
 
