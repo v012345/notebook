@@ -291,6 +291,8 @@ paradigm
 discrete  
 isomorphic  
 intercept  
+registry  
+
 
 
 
