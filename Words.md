@@ -292,6 +292,11 @@ discrete
 isomorphic  
 intercept  
 registry  
+compromise  
+infrastructure  
+optimal  
+
+
 
 
 
