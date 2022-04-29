@@ -294,7 +294,11 @@ intercept
 registry  
 compromise  
 infrastructure  
-optimal  
+optimal   
+Severity  
+mitigating  
+
+
 
 
 
