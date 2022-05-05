@@ -297,6 +297,8 @@ infrastructure
 optimal   
 Severity  
 mitigating  
+Synopsis  
+guild  
 
 
 

@@ -86,3 +86,5 @@ npm run build
 ```
 
 没看完 [继续](https://www.youtube.com/watch?v=j-ziAwVDAIM&list=PLmOn9nNkQxJGwOhSsQ5H9JTPmiXGmy8Zw&index=10&ab_channel=%E5%B0%9A%E7%A1%85%E8%B0%B7IT%E5%9F%B9%E8%AE%AD%E5%AD%A6%E6%A0%A1)
+
+官方文档[看到](https://webpack.js.org/guides/asset-management/#loading-fonts)
