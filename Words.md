@@ -299,6 +299,17 @@ Severity
 mitigating  
 Synopsis  
 guild  
+wrap up
+rudimentary  
+splitting  
+compelling  
+pitfall  
+In charge of
+Responsible for
+legacy  
+
+
+
 
 
 
