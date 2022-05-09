@@ -307,6 +307,10 @@ pitfall
 In charge of
 Responsible for
 legacy  
+boilerplate  
+bloated  
+sufficient  
+
 
 
 
