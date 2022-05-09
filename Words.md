@@ -13,7 +13,7 @@ poem
 Mask  
 intimacy  
 threshold  
-modal  
+modal  (2)
 benefit  
 dial  
 concern  
@@ -299,6 +299,21 @@ Severity
 mitigating  
 Synopsis  
 guild  
+wrap up
+rudimentary  
+splitting  
+compelling  
+pitfall  
+In charge of
+Responsible for
+legacy  
+boilerplate  
+bloated  
+sufficient  
+
+
+
+
 
 
 
