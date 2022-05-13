@@ -310,6 +310,17 @@ legacy
 boilerplate  
 bloated  
 sufficient  
+disambiguate  
+catalogue  
+mangle  
+Aggressive  
+regression  
+ambitious  
+deteriorate  
+envoy   
+
+
+
 
 
 
