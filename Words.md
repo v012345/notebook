@@ -317,7 +317,10 @@ Aggressive
 regression  
 ambitious  
 deteriorate  
-envoy   
+envoy  
+regret  
+ellipse  
+
 
 
 
