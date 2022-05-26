@@ -324,6 +324,8 @@ glance
 parallelism  
 assess  
 angular  
+reach out to (someone)  
+
 
 
 
