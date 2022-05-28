@@ -86,7 +86,7 @@ survivor
 deviate  
 pluck  
 invoice  
-evaluate  
+evaluate  (2)
 discretionary  
 mechanism  
 preceded  
@@ -320,6 +320,13 @@ deteriorate
 envoy  
 regret  
 ellipse  
+glance  
+parallelism  
+assess  
+angular  
+reach out to (someone)  
+
+
 
 
 
