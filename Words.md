@@ -181,7 +181,7 @@ brevity
 clarity  
 minutiae  
 concise  
-terminology  
+terminology  (2)
 consume  
 Malformed  
 hybrid
@@ -325,6 +325,11 @@ parallelism
 assess  
 angular  
 reach out to (someone)  
+substituted  
+unwary  
+postfix  
+
+
 
 
 
