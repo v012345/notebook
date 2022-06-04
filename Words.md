@@ -303,7 +303,7 @@ wrap up
 rudimentary  
 splitting  
 compelling  
-pitfall  
+pitfall  (2)
 In charge of
 Responsible for
 legacy  
@@ -329,43 +329,15 @@ substituted
 unwary  
 postfix  
 arithmetic  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+awash  
+esoteric  
+ample  
+analogue  
+prerequisites  
+phony  
+foreshadow  
+with regards to  
+nullify  
 
 
 
