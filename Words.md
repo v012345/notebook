@@ -339,5 +339,7 @@ foreshadow
 with regards to  
 nullify  
 imperative  
+reparation  
+previous   
 
 
