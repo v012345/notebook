@@ -340,6 +340,9 @@ with regards to
 nullify  
 imperative  
 reparation  
-previous   
+previous  
+exclamation  
+propogate  
+
 
 
