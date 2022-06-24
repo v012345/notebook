@@ -344,6 +344,8 @@ previous
 exclamation  
 propogate  
 lexical  
+expedition  
+glitch  
 
 
 
