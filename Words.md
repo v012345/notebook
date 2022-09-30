@@ -350,5 +350,21 @@ artifact
 Debris  
 Crest  
 postpone  
+meticulous  
+guru  
+fledged  
+versatile  
+orchestrate  
+curate  
+disposal  
+deliberately  
+hefty  
+battery  
+evaluation  
+complicated  
+hygiene  
+agnostic  
+
+
 
 
