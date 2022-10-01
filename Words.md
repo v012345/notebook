@@ -30,7 +30,7 @@ album
 stature  
 Quotation mark  
 escort  
-comparison  
+comparison  (2)  
 intervention  (3)  
 antonym  
 applicant  
@@ -364,7 +364,16 @@ evaluation
 complicated  
 hygiene  
 agnostic  
-
-
-
-
+imperative  
+invocation  
+nifty  
+guru  
+untangle  
+consequence  
+mandate  
+striking  
+enrage  
+quirks  
+tackle  
+peculiar  
+persistent  
