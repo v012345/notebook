@@ -377,3 +377,8 @@ quirks
 tackle  
 peculiar  
 persistent  
+impose  
+implement  
+parentheses  
+decent  
+convoluted  
