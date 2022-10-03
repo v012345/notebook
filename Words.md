@@ -287,7 +287,7 @@ in spite of
 drawback  
 as intended  
 identical  
-paradigm  
+paradigm  (2)
 discrete  
 isomorphic  
 intercept  
@@ -382,3 +382,11 @@ implement
 parentheses  
 decent  
 convoluted  
+variant  
+subroutine  
+despite  
+procedural  
+minuscule  
+caveat  
+pun  
+potential  
