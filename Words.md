@@ -8,15 +8,15 @@ composition
 scratch  
 skew  
 occupation  
-constellation  (2)
+constellation  (2)  
 poem  
 Mask  
 intimacy  
 threshold  
-modal  (2)
+modal  (2)  
 benefit  
 dial  
-concern  
+concern  (2)  
 substantially  
 Invitee  
 Inviter  
@@ -43,7 +43,7 @@ dendritic
 WYSIWYG  
 prefab  
 atlas  
-marquee  (2) 跑马灯
+marquee  (2) 跑马灯  
 gizmo  
 vertex  
 diagonal  
@@ -86,11 +86,11 @@ survivor
 deviate  
 pluck  
 invoice  
-evaluate  (2)
+evaluate  (2)  
 discretionary  
 mechanism  
 preceded  
-sophisticated  (2)
+sophisticated  (2)  
 guideline  
 scenario  
 separate  
@@ -287,8 +287,8 @@ in spite of
 drawback  
 as intended  
 identical  
-paradigm  (2)
-discrete  
+paradigm  (2)  
+discrete  (2)  
 isomorphic  
 intercept  
 registry  
@@ -338,7 +338,7 @@ phony
 foreshadow  
 with regards to  
 nullify  
-imperative  (2)
+imperative  (2)  
 reparation  
 previous  
 exclamation  
@@ -362,7 +362,7 @@ hefty
 battery  
 evaluation  
 complicated  
-hygiene  
+hygiene  (2)  
 agnostic  
 imperative  
 invocation  
@@ -390,3 +390,18 @@ minuscule
 caveat  
 pun  
 potential  
+inevitable  
+vice versa  
+granularity  
+introduce  
+deliver  
+shove  
+course  
+crippling  
+as it turns out  
+cursive  
+reluctant  
+mundane  
+
+
+
