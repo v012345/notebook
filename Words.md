@@ -162,7 +162,7 @@ slightly
 derive  
 pivot  
 counterpart  
-presence  
+presence  (2)
 escalation  
 polymorphic  
 evolve  
@@ -254,7 +254,7 @@ indication
 superfluous  
 proven  
 dedicated  
-digest  
+digest  (2)  
 significance  
 ordinate  
 dimension  
@@ -357,13 +357,13 @@ versatile
 orchestrate  
 curate  
 disposal  
-deliberately  
+deliberately  (2)
 hefty  
 battery  
 evaluation  
 complicated  
 hygiene  (2)  
-agnostic  
+agnostic  (2)
 imperative  
 invocation  
 nifty  
@@ -401,7 +401,24 @@ crippling
 as it turns out  
 cursive  
 reluctant  
-mundane  
+even as mundane  
+abbreviated  
+bump  
+gauge  
+daunting  
+stumble  
+future-proof  
+modularity  (模块化)  
+resilient  
+encompass  
+boundary  
+inexact  
+sanitizer  
+tangible  
+exemplary  
+
+
+
 
 
 
