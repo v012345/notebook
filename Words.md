@@ -2,7 +2,7 @@ demand
 Gotcha  
 role  
 guarantee  
-propagation  
+propagation  (2)
 culminate  
 composition  
 scratch  
@@ -215,6 +215,8 @@ endeavor
 verbose  
 palette  
 bidirectional  
+directional  
+acyclic  
 unison  
 jagged  
 intent  
@@ -368,7 +370,7 @@ imperative
 invocation  
 nifty  
 guru  
-untangle  
+untangle  (2)  
 consequence  
 mandate  
 striking  
@@ -416,6 +418,11 @@ inexact
 sanitizer  
 tangible  
 exemplary  
+to reason about  
+tedious  
+perspective  
+cryptic  
+propose  
 
 
 
