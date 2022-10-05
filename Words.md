@@ -99,7 +99,7 @@ clamp
 premultiply  
 interpolation  
 proportion  
-appropriate  
+appropriate  (2)
 shimmering  
 magnification  
 abrupt  
