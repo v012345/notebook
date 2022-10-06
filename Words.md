@@ -434,7 +434,10 @@ align
 precious  
 rationalize  
 right off the bat  
-
+That leaves us a little lost.  
+stray  
+interpret  
+convoluted  
 
 
 
