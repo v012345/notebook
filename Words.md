@@ -75,7 +75,7 @@ lizard
 accomplish  
 clerk  
 staff  
-leverage  
+leverage  (2)
 parity  
 tenancy  
 audit  
@@ -111,7 +111,7 @@ achieve
 cull  
 frustum  
 engagement  
-circumstance   
+circumstance  (2)  
 acquire  
 turret  
 barrel  
@@ -423,6 +423,21 @@ tedious
 perspective  
 cryptic  
 propose  
+outright  
+analogy  
+skim  
+from scratch  
+admittedly  
+neutral  
+inconsistent  
+align  
+precious  
+rationalize  
+right off the bat  
+
+
+
+
 
 
 
