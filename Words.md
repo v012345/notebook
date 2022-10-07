@@ -294,7 +294,7 @@ discrete  (2)
 isomorphic  
 intercept  
 registry  
-compromise  
+compromise  (2)  
 infrastructure  
 optimal   
 Severity  
@@ -468,6 +468,11 @@ a bit of overhead  (Yet, now that the company has many servers, using peer-to-pe
 receive output populated from CMake  
 certainty  
 tamper  
+necessarily  
+comply  
+as you will recall  
+curious  
+
 
 
 
