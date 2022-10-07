@@ -266,7 +266,7 @@ shimmer
 sentinel  
 shard  
 dictate  
-dummy  (2)
+dummy  (3)
 bloated  
 underlying  
 terse  
@@ -461,6 +461,18 @@ lengthy
 end up with  
 breakage  
 given  (Maybe this is a little surprising, **given** how simple and limited its functionality is.)  
+as a last resort  
+use cases  
+revision  
+a bit of overhead  (Yet, now that the company has many servers, using peer-to-peer in addition to direct downloads actually adds a bit of overhead.)  
+receive output populated from CMake  
+certainty  
+tamper  
+
+
+
+
+
 
 
 
