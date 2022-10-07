@@ -302,7 +302,7 @@ mitigating
 Synopsis  
 guild  
 wrap up
-rudimentary  
+rudimentary  (2)  
 splitting  
 compelling  
 pitfall  (2)
@@ -345,7 +345,7 @@ reparation
 previous  
 exclamation  
 propogate  
-lexical  
+lexical  (2)
 expedition  
 glitch  
 artifact  
@@ -409,7 +409,7 @@ bump
 gauge  
 daunting  
 stumble  
-future-proof  
+future-proof  (面向未来的)
 modularity  (模块化)  
 resilient  
 encompass  
@@ -419,7 +419,7 @@ sanitizer
 tangible  
 exemplary  
 to reason about  
-tedious  
+tedious  (2)
 perspective  
 cryptic  
 propose  
@@ -438,6 +438,33 @@ That leaves us a little lost.
 stray  
 interpret  
 convoluted  
+reliably  
+dedicated  
+out of the box  
+you name it  
+coherent  
+in bulk  
+painfully  
+become aware of  
+mangled
+bother  
+foster  
+performant  
+impenetrable  
+linguistic  
+emission  
+blissfully  
+nevertheless  
+vocal  
+decipher  
+
+
+
+
+
+
+
+
 
 
 
