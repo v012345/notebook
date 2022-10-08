@@ -488,6 +488,30 @@ unconventional
 the fallout  (后果)  
 jumbo  
 clump  
+nuisance  
+it's only intended for  (它仅用于)  
+anticipated  
+get under our skin  (深入我们的皮肤)  
+bearable  
+impossibly tedious  (令人难以置信的乏味)  
+frustrating  
+handly ever  (得心应手)  
+pedantic  
+diagnostic  
+down-to-earth  
+lenient  
+corporate  
+if you are particularly driven individual (如果你特别有动力)  
+indispensable  
+
+
+
+
+
+
+
+
+
 
 
 
