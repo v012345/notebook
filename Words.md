@@ -30,7 +30,7 @@ album
 stature  
 Quotation mark  
 escort  
-comparison  (2)  
+comparison  (2)  (in comparison)(computer-based communication is extremely fast in comparison with telephone or postal services)  
 intervention  (3)  
 antonym  
 applicant  
