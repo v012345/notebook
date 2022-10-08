@@ -225,7 +225,7 @@ cohesive
 facilitate  
 track  
 prioritize  
-convey   
+convey  (2)  
 in addition to  
 arbitrary  (2)
 spectrum  
@@ -475,6 +475,14 @@ necessarily
 comply  
 as you will recall  
 curious  
+teardown  
+unroll  
+estimate  
+extensively  
+capable  
+consecutive  
+
+
 
 
 
