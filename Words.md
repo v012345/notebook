@@ -507,6 +507,12 @@ arcane
 viability  
 dedicate  
 downside  
+this, in turn, means that the addresses of the symbols are unknown, ***as*** is their relative position to the library's machine code.  (反过来，这意味着符号的地址是未知的，它们与库的机器代码的相对位置也是未知的。)  
+indirection  
+ambiguity  (双关)  
+inconsistency  (前后矛盾)
+
+
 
 
 
