@@ -232,7 +232,7 @@ spectrum
 Suppress  
 Presenter  (3)
 barrage  
-anchor  (live anchor)
+anchor  (live anchor)  
 gossip  
 divergent  
 immense  
@@ -240,7 +240,7 @@ fragmentation
 intuitive  
 generic  
 prerequisite  
-manufacturer  
+manufacturer  (2)  
 culprit  
 arbitrarily  
 eliminate  
@@ -481,6 +481,14 @@ estimate
 extensively  
 capable  
 consecutive  
+buck  (we will get more bang for our buck.)  
+paramount  
+tight  
+unconventional  
+the fallout  (后果)  
+jumbo  
+clump  
+
 
 
 
