@@ -2,21 +2,21 @@ demand
 Gotcha  
 role  
 guarantee  
-propagation  
+propagation  (2)
 culminate  
 composition  
 scratch  
 skew  
 occupation  
-constellation  (2)
+constellation  (2)  
 poem  
 Mask  
 intimacy  
 threshold  
-modal  (2)
+modal  (2)  
 benefit  
 dial  
-concern  
+concern  (2)  
 substantially  
 Invitee  
 Inviter  
@@ -30,7 +30,7 @@ album
 stature  
 Quotation mark  
 escort  
-comparison  
+comparison  (2)  
 intervention  (3)  
 antonym  
 applicant  
@@ -43,7 +43,7 @@ dendritic
 WYSIWYG  
 prefab  
 atlas  
-marquee  (2) 跑马灯
+marquee  (2) 跑马灯  
 gizmo  
 vertex  
 diagonal  
@@ -75,7 +75,7 @@ lizard
 accomplish  
 clerk  
 staff  
-leverage  
+leverage  (2)
 parity  
 tenancy  
 audit  
@@ -86,11 +86,11 @@ survivor
 deviate  
 pluck  
 invoice  
-evaluate  (2)
+evaluate  (2)  
 discretionary  
 mechanism  
 preceded  
-sophisticated  (2)
+sophisticated  (2)  
 guideline  
 scenario  
 separate  
@@ -99,7 +99,7 @@ clamp
 premultiply  
 interpolation  
 proportion  
-appropriate  
+appropriate  (2)
 shimmering  
 magnification  
 abrupt  
@@ -111,7 +111,7 @@ achieve
 cull  
 frustum  
 engagement  
-circumstance   
+circumstance  (2)  
 acquire  
 turret  
 barrel  
@@ -162,7 +162,7 @@ slightly
 derive  
 pivot  
 counterpart  
-presence  
+presence  (2)
 escalation  
 polymorphic  
 evolve  
@@ -215,6 +215,8 @@ endeavor
 verbose  
 palette  
 bidirectional  
+directional  
+acyclic  
 unison  
 jagged  
 intent  
@@ -254,7 +256,7 @@ indication
 superfluous  
 proven  
 dedicated  
-digest  
+digest  (2)  
 significance  
 ordinate  
 dimension  
@@ -264,7 +266,7 @@ shimmer
 sentinel  
 shard  
 dictate  
-dummy  (2)
+dummy  (3)
 bloated  
 underlying  
 terse  
@@ -287,12 +289,12 @@ in spite of
 drawback  
 as intended  
 identical  
-paradigm  
-discrete  
+paradigm  (2)  
+discrete  (2)  
 isomorphic  
 intercept  
 registry  
-compromise  
+compromise  (2)  
 infrastructure  
 optimal   
 Severity  
@@ -300,7 +302,7 @@ mitigating
 Synopsis  
 guild  
 wrap up
-rudimentary  
+rudimentary  (2)  
 splitting  
 compelling  
 pitfall  (2)
@@ -338,12 +340,12 @@ phony
 foreshadow  
 with regards to  
 nullify  
-imperative  (2)
+imperative  (2)  
 reparation  
 previous  
 exclamation  
 propogate  
-lexical  
+lexical  (2)
 expedition  
 glitch  
 artifact  
@@ -357,7 +359,7 @@ versatile
 orchestrate  
 curate  
 disposal  
-deliberately  
+deliberately  (2)
 hefty  
 battery  
 evaluation  
@@ -365,6 +367,133 @@ complicated
 hygiene  
 agnostic  
 tricky  
+hygiene  (2)  
+agnostic  (2)
+imperative  
+invocation  
+nifty  
+guru  
+untangle  (2)  
+consequence  
+mandate  
+striking  
+enrage  
+quirks  
+tackle  
+peculiar  
+persistent  
+impose  
+implement  
+parentheses  
+decent  
+convoluted  
+variant  
+subroutine  
+despite  
+procedural  
+minuscule  
+caveat  
+pun  
+potential  
+inevitable  
+vice versa  
+granularity  
+introduce  
+deliver  
+shove  
+course  
+crippling  
+as it turns out  
+cursive  
+reluctant  
+even as mundane  
+abbreviated  
+bump  
+gauge  
+daunting  
+stumble  
+future-proof  (面向未来的)
+modularity  (模块化)  
+resilient  
+encompass  
+boundary  
+inexact  
+sanitizer  
+tangible  
+exemplary  
+to reason about  
+tedious  (2)
+perspective  
+cryptic  
+propose  
+outright  
+analogy  
+skim  
+from scratch  
+admittedly  
+neutral  
+inconsistent  
+align  
+precious  
+rationalize  
+right off the bat  
+That leaves us a little lost.  
+stray  
+interpret  
+convoluted  
+reliably  
+dedicated  
+out of the box  
+you name it  
+coherent  
+in bulk  
+painfully  
+become aware of  
+mangled
+bother  
+foster  
+performant  
+impenetrable  
+linguistic  
+emission  
+blissfully  
+nevertheless  
+vocal  
+decipher  
+lengthy  
+end up with  
+breakage  
+given  (Maybe this is a little surprising, **given** how simple and limited its functionality is.)  
+as a last resort  
+use cases  
+revision  
+a bit of overhead  (Yet, now that the company has many servers, using peer-to-peer in addition to direct downloads actually adds a bit of overhead.)  
+receive output populated from CMake  
+certainty  
+tamper  
+necessarily  
+comply  
+as you will recall  
+curious  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
