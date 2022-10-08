@@ -1,25 +1,25 @@
-demand  
-Gotcha  
-role  
-guarantee  
-propagation  (2)
-culminate  
-composition  
-scratch  
-skew  
-occupation  
-constellation  (2)  
-poem  
-Mask  
-intimacy  
-threshold  
-modal  (2)  
-benefit  
-dial  
-concern  (2)  
-substantially  
-Invitee  
-Inviter  
+demand  (需要)
+Gotcha  (明白 , 抓住)
+role  (角色)
+guarantee  (保证)
+propagation  (2)(广播,宣传)
+culminate  (到高潮了)
+composition  (组成, 合成)
+scratch  (抓 , 刮)
+skew  (偏斜)
+occupation  (占领)
+constellation  (2)(星座)  
+poem  (诗)
+Mask  (遮罩)
+intimacy  (亲密)
+threshold  (阈值)
+modal  (2)(语气 modal verb 语气动词)  
+benefit  (有益的)
+dial  (拔号)
+concern  (2)(关心)  
+substantially  (实质地)
+Invitee  (邀请人)
+Inviter  (受邀者)
 collar  
 aim  
 pending  
@@ -488,7 +488,7 @@ unconventional
 the fallout  (后果)  
 jumbo  
 clump  
-nuisance  
+nuisance  (2)
 it's only intended for  (它仅用于)  
 anticipated  
 get under our skin  (深入我们的皮肤)  
@@ -503,6 +503,13 @@ lenient
 corporate  
 if you are particularly driven individual (如果你特别有动力)  
 indispensable  
+arcane  
+viability  
+dedicate  
+downside  
+
+
+
 
 
 
