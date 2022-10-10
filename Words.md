@@ -1,47 +1,47 @@
-demand  (需要)
-Gotcha  (明白 , 抓住)
-role  (角色)
-guarantee  (保证)
-propagation  (2)(广播,宣传)
-culminate  (到高潮了)
-composition  (组成, 合成)
-scratch  (抓 , 刮)
-skew  (偏斜)
-occupation  (占领)
+demand  (需要)  
+Gotcha  (明白 , 抓住)  
+role  (角色)  
+guarantee  (保证)  
+propagation  (2)(广播,宣传)  
+culminate  (到高潮了)  
+composition  (组成, 合成)  
+scratch  (抓 , 刮)  
+skew  (偏斜)  
+occupation  (占领)  
 constellation  (2)(星座)  
-poem  (诗)
-Mask  (遮罩)
-intimacy  (亲密)
-threshold  (阈值)
+poem  (诗)  
+Mask  (遮罩)  
+intimacy  (亲密)  
+threshold  (阈值)  
 modal  (2)(语气 modal verb 语气动词)  
-benefit  (有益的)
-dial  (拔号)
+benefit  (有益的)  
+dial  (拔号)  
 concern  (2)(关心)  
-substantially  (实质地)
-Invitee  (邀请人)
-Inviter  (受邀者)
-collar  
-aim  
-pending  
-deprecate  
-celsius  
-cloak  
-album  
-stature  
-Quotation mark  
-escort  
-comparison  (2)  (in comparison)(computer-based communication is extremely fast in comparison with telephone or postal services)  
-intervention  (3)  
-antonym  
-applicant  
-payer  
-payee  
-electron  
-hierarchy  
-leisure  
-dendritic  
-WYSIWYG  
-prefab  
+substantially  (实质地)  
+Invitee  (邀请人)  
+Inviter  (受邀者)  
+collar  (衣领)  
+aim  (目标)  
+pending  (未决定 , 有待 , 当...的时候 , 在...期间)  
+deprecate  (废弃)  
+celsius  (摄氏度)  
+cloak  (披风)  
+album  (相册)  
+stature  (身材)  
+Quotation mark  (引号)  
+escort  (护送)  
+comparison  (2)(相比较)  (in comparison)(computer-based communication is extremely fast in comparison with telephone or postal services)  
+intervention  (3)(涉及 , 参与诉讼)  
+antonym  (反义词)  
+applicant  (申请人)  
+payer  (支付人)  
+payee  (收款人)  
+electron  (电子)  
+hierarchy  (阶级)  
+leisure  (闲暇)  
+dendritic  (树突)  
+WYSIWYG  (所见即所得)
+prefab  (预制好的东西)  
 atlas  
 marquee  (2) 跑马灯  
 gizmo  
@@ -382,7 +382,7 @@ quirks
 tackle  
 peculiar  
 persistent  
-impose  
+impose  (2)
 implement  
 parentheses  
 decent  
@@ -510,7 +510,11 @@ downside
 this, in turn, means that the addresses of the symbols are unknown, ***as*** is their relative position to the library's machine code.  (反过来，这意味着符号的地址是未知的，它们与库的机器代码的相对位置也是未知的。)  
 indirection  
 ambiguity  (双关)  
-inconsistency  (前后矛盾)
+inconsistency  (前后矛盾)  
+he was right on point when he said   (他说得对)  
+manifest  
+
+
 
 
 
