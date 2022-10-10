@@ -44,7 +44,7 @@ WYSIWYG  (所见即所得)
 prefab  (预制好的东西)   
 atlas  
 marquee  (2) 跑马灯  
-gizmo  
+gizmo  (gadget)  
 vertex  
 diagonal  
 replication  
