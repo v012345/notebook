@@ -162,12 +162,12 @@ slightly
 derive  
 pivot  
 counterpart  
-presence  (2)
+presence  (2)  
 escalation  
 polymorphic  
 evolve  
 fledged  
-quirk  
+quirk  (2)  
 oddity  
 humble  
 subtle  
@@ -513,6 +513,15 @@ ambiguity  (双关)
 inconsistency  (前后矛盾)  
 he was right on point when he said   (他说得对)  
 manifest  
+a notable exception  (一个值得注意的例外)  
+explanation  
+whimsical  
+ordeal  
+all hell breaks loose  (一切都乱了套)  
+inconspicuous  
+infuriating  (气死人)  
+Very few errors can be as infuriating to debug and understand  
+
 
 
 
