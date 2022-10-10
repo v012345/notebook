@@ -41,7 +41,7 @@ hierarchy  (阶级)
 leisure  (闲暇)  
 dendritic  (树突)  
 WYSIWYG  (所见即所得)
-prefab  (预制好的东西)  
+prefab  (预制好的东西)   
 atlas  
 marquee  (2) 跑马灯  
 gizmo  
@@ -290,7 +290,7 @@ drawback
 as intended  
 identical  
 paradigm  (2)  
-discrete  (2)  
+discrete  (3)  
 isomorphic  
 intercept  
 registry  
