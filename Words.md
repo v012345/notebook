@@ -42,28 +42,28 @@ leisure  (闲暇)
 dendritic  (树突)  
 WYSIWYG  (所见即所得)
 prefab  (预制好的东西)   
-atlas  
+atlas  (大地图)
 marquee  (2) 跑马灯  
-gizmo  (gadget)  
-vertex  
-diagonal  
-replication  
-inquiry  
-widget  
-enumerations  
-revive  (2)  
-mob  
+gizmo  (gadget)  (不起眼的小发明)  
+vertex  (结点)  
+diagonal  (对角线)  
+replication  (复制)  
+inquiry  (询问)  
+widget  (小部件)  
+enumerations  (枚举)  
+revive  (2)  (复苏)  
+mob  (暴民)  
 residual  
-translucent  
-tweak  
-deceive  
-obtuse  
+translucent  (半透明的)  
+tweak  (调整)  
+deceive  (欺诈)  
+obtuse  (钝角)  
 dazzling  
-illustrated  
+illustrated  (有插图的)  
 stipulate  
-debut  
-aura  
-workbench  
+debut  (首次出现)  
+aura  (光圈)  
+workbench  (工作台)  
 parentheses  
 unceasingly  
 coupon  
@@ -521,6 +521,11 @@ all hell breaks loose  (一切都乱了套)
 inconspicuous  
 infuriating  (气死人)  
 Very few errors can be as infuriating to debug and understand  
+annotation  
+exhaustive  
+left much to be desired in terms of  (在以下方面还有很多不足之处)  
+grant  
+
 
 
 
