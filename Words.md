@@ -64,28 +64,28 @@ stipulate  (规定)
 debut  (首次出现)  
 aura  (光圈)  
 workbench  (工作台)  
-parentheses  
-unceasingly  
-coupon  
-refine  
-exquisite  
-gorgeous  
-stale  
-lizard  
-accomplish  
-clerk  
-staff  
-leverage  (2)
-parity  
-tenancy  
-audit  
-ripple  
-franchise  
-franchisee  
-survivor  
-deviate  
-pluck  
-invoice  
+parentheses  (括号)  
+unceasingly  (不停的)  
+coupon  (优惠券)  
+refine  (提炼)  
+exquisite  (优雅的)  
+gorgeous  (优雅的)  
+stale  (陈旧的)  
+lizard  (蜥蜴)  
+accomplish  (完成)  
+clerk  (文员)  
+staff  (员工)  
+leverage  (2) (杠杆作用)  
+parity  (平衡)  
+tenancy  (租赁)  
+audit  (审计)  
+ripple  (波纹)  
+franchise  (加盟)  
+franchisee  (加盟商)  
+survivor  (幸存者)  
+deviate  (偏离)  
+pluck  (采摘)  
+invoice  (发票)  
 evaluate  (2)  
 discretionary  
 mechanism  
