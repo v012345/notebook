@@ -53,14 +53,14 @@ widget  (小部件)
 enumerations  (枚举)  
 revive  (2)  (复苏)  
 mob  (暴民)  
-residual  
+residual  (剩下)  
 translucent  (半透明的)  
 tweak  (调整)  
 deceive  (欺诈)  
 obtuse  (钝角)  
-dazzling  
+dazzling  (荧光的)
 illustrated  (有插图的)  
-stipulate  
+stipulate  (规定)  
 debut  (首次出现)  
 aura  (光圈)  
 workbench  (工作台)  
@@ -418,6 +418,7 @@ resilient
 encompass  
 boundary  
 inexact  
+exact  
 sanitizer  
 tangible  
 exemplary  
@@ -532,6 +533,11 @@ Fortunately, CMake does an excellent job in accommodating different styles and h
 supply  
 rewind  
 the bells and whistles  (花里胡哨)  
+transitive  
+phase out  (淘汰)  
+invest  
+excessive  
+
 
 
 
