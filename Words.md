@@ -69,7 +69,7 @@ unceasingly
 coupon  
 refine  
 exquisite  
-gorgeous
+gorgeous  
 stale  
 lizard  
 accomplish  
