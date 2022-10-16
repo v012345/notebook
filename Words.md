@@ -541,6 +541,7 @@ undesirable
 it doesn't take into account the fact that ...  (它没有考虑到这样一个事实...)  
 vibes  
 in the first place (一开始)
+intern  
 
 
 
