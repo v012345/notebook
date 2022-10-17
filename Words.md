@@ -543,6 +543,10 @@ vibes
 in the first place (一开始)
 intern  
 idempotent  
+rationale  
+anatomy  
+steady  
+
 
 
 

@@ -17,17 +17,17 @@
     ```
 4. 上一步可能会有一些 failed target 产生 , 先不管 , 因为我也不知道为什么 , 先能跑起来再说吧
 5. `CMakeList.txt` 的配置
-```cmake
-cmake_minimum_required(VERSION 3.20.0)
-project(BoostTest)
-set(BOOST_ROOT "C:\\boost_1_80_0") # either set it here or from the command line  
-# set(Boost_USE_STATIC_LIBS OFF) 
-# set(Boost_USE_MULTITHREADED ON)  
-# set(Boost_USE_STATIC_RUNTIME OFF) 
-find_package(Boost REQUIRED) # header only libraries must not be added here
-add_executable(main main.cpp)
-
-target_include_directories(main PUBLIC ${Boost_INCLUDE_DIRS}) 
-target_link_libraries(main ${Boost_LIBRARIES})
-```
+    ```cmake
+    cmake_minimum_required(VERSION 3.20.0)
+    project(BoostTest)
+    set(BOOST_ROOT "C:\\boost_1_80_0") # either set it here or from     the command line  
+    # set(Boost_USE_STATIC_LIBS OFF) 
+    # set(Boost_USE_MULTITHREADED ON)  
+    # set(Boost_USE_STATIC_RUNTIME OFF) 
+    find_package(Boost REQUIRED) # header only libraries must not be    added here
+    add_executable(main main.cpp)
+    
+    target_include_directories(main PUBLIC ${Boost_INCLUDE_DIRS}) 
+    target_link_libraries(main ${Boost_LIBRARIES})
+    ```
 
