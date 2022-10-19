@@ -170,7 +170,7 @@ fledged
 quirk  (2)  
 oddity  
 humble  
-subtle  
+subtle  (2)  
 infer  
 trivial  
 exponentially  
@@ -288,7 +288,7 @@ iteration
 in spite of  
 drawback  
 as intended  
-identical  
+identical  (2)  
 paradigm  (2)  
 discrete  (3)  
 isomorphic  
@@ -466,7 +466,7 @@ breakage
 given  (Maybe this is a little surprising, **given** how simple and limited its functionality is.)  
 as a last resort  
 use cases  
-revision  
+revision  (2)  
 a bit of overhead  (Yet, now that the company has many servers, using peer-to-peer in addition to direct downloads actually adds a bit of overhead.)  
 receive output populated from CMake  
 certainty  
@@ -546,6 +546,33 @@ idempotent
 rationale  
 anatomy  
 steady  
+At the end of this chapter, you should understand why Git is around, and why you should use it and you should be all set up to do so.  (在本章结束时，你应该了解 Git 为何存在，为什么要使用它，并且你应该做好一切准备。)
+screw things up  (搞砸了)  
+Using a VCS also generally means that if you screw things up or lose files, you can easily recover them.  (使用 VCS 通常还意味着，如果您搞砸了或丢失了文件，您可以轻松地恢复它们。)  
+In addition, you get all this for very little **overhead**.  (此外，您只需很少的**开销**即可获得所有这些。)  
+prone  (倾向于)  
+This approach is very common because it is so simple, but it is also incredibly error-prone.  (这种方法非常常见，因为它非常简单，但也非常容易出错。)  
+setup  
+to a certain degree  (在一定程度上)  
+downside  
+The most obvious is the single point of failure that the centralized server represents.  (这么做最显而易见的缺点是中央服务器的单点故障 / 最明显的是集中式服务器所代表的单点故障。)
+corrupted  (损坏的)  
+As with many great things in life, Git began with a bit of creative destruction and fiery controversy.  (与生活中的许多伟大事物一样，Git 始于一些创造性的破坏和激烈的争议。)  
+fiery  
+controversy  (争议)  
+proprietary  (relating to an owner or ownership.an owner; proprietor.)  
+absorb  (吸收)  
+unworldly  
+instantaneous  
+
+
+
+
+
+
+
+
+
 
 
 
