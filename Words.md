@@ -170,7 +170,7 @@ fledged
 quirk  (2)  
 oddity  
 humble  
-subtle  
+subtle  (2)  
 infer  
 trivial  
 exponentially  
@@ -552,6 +552,22 @@ Using a VCS also generally means that if you screw things up or lose files, you 
 In addition, you get all this for very little **overhead**.  (此外，您只需很少的**开销**即可获得所有这些。)  
 prone  (倾向于)  
 This approach is very common because it is so simple, but it is also incredibly error-prone.  (这种方法非常常见，因为它非常简单，但也非常容易出错。)  
+setup  
+to a certain degree  (在一定程度上)  
+downside  
+The most obvious is the single point of failure that the centralized server represents.  (这么做最显而易见的缺点是中央服务器的单点故障 / 最明显的是集中式服务器所代表的单点故障。)
+corrupted  (损坏的)  
+As with many great things in life, Git began with a bit of creative destruction and fiery controversy.  (与生活中的许多伟大事物一样，Git 始于一些创造性的破坏和激烈的争议。)  
+fiery  
+controversy  (争议)  
+proprietary  (relating to an owner or ownership.an owner; proprietor.)  
+absorb  (吸收)  
+
+
+
+
+
+
 
 
 
