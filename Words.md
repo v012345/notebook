@@ -288,7 +288,7 @@ iteration
 in spite of  
 drawback  
 as intended  
-identical  
+identical  (2)  
 paradigm  (2)  
 discrete  (3)  
 isomorphic  
@@ -562,6 +562,10 @@ fiery
 controversy  (争议)  
 proprietary  (relating to an owner or ownership.an owner; proprietor.)  
 absorb  (吸收)  
+unworldly  
+instantaneous  
+
+
 
 
 
