@@ -578,6 +578,7 @@ Unsurprisingly, you need to be located somewhere in a Git repository for this op
 不出所料，您需要位于 Git 存储库中的某个位置才能使此选项正常工作)  
 prematurely  terminated  (提前终止)  
 prematurely  (过早地)  
+full-blown  (成熟的)  
 
 
 

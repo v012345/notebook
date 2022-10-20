@@ -39,6 +39,17 @@ $ git config --show-origin init.defaultBranch
 $ git config --show-origin core.editor
 ```
 
+get help
+```console
+$ git help <verb>
+$ git <verb> --help # # 完整的 手册页
+$ man git-<verb> # windows 也有 man 命令 , 但是没有 get-<verb> 的相关文件
+
+$ git <verb> -h # 简短的 手册页
+```
+
+
+
 
 
 
