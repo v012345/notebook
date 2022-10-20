@@ -571,6 +571,13 @@ undoable
 It is hard to get the system to do anything that is not undoable or to make it erase data in any way.  (很难让系统执行任何不可撤销的操作或以任何方式擦除数据)  
 severely  
 parlance  
+If you know how to run the command-line version, you can probably also figure out how to run the GUI version, while the opposite is not necessarily true.  (如果您知道如何运行命令行版本，您可能还可以弄清楚如何运行 GUI 版本，而相反则不一定。)  
+Also, while your choice of graphical client is a matter of personal taste, all users will have the command-line tools installed and available.  (此外，虽然您选择图形客户端是个人喜好问题，但所有用户都将安装并使用命令行工具。)  
+derivative  
+Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly.  (
+不出所料，您需要位于 Git 存储库中的某个位置才能使此选项正常工作)  
+
+
 
 
 
