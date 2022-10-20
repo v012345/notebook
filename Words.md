@@ -547,7 +547,7 @@ rationale
 anatomy  
 steady  
 At the end of this chapter, you should understand why Git is around, and why you should use it and you should be all set up to do so.  (在本章结束时，你应该了解 Git 为何存在，为什么要使用它，并且你应该做好一切准备。)
-screw things up  (搞砸了)  
+screw things up  (搞砸了)  (2)
 Using a VCS also generally means that if you screw things up or lose files, you can easily recover them.  (使用 VCS 通常还意味着，如果您搞砸了或丢失了文件，您可以轻松地恢复它们。)  
 In addition, you get all this for very little **overhead**.  (此外，您只需很少的**开销**即可获得所有这些。)  
 prone  (倾向于)  
@@ -564,6 +564,14 @@ proprietary  (relating to an owner or ownership.an owner; proprietor.)
 absorb  (吸收)  
 unworldly  
 instantaneous  
+This may not seem like a huge deal  (这似乎不是什么大不了的事)  
+This may not seem like a huge deal, but you may be surprised what a big difference it can make.  (这可能看起来没什么大不了的，但您可能会惊讶于它可以带来多大的改变。)  
+integral  
+undoable  
+It is hard to get the system to do anything that is not undoable or to make it erase data in any way.  (很难让系统执行任何不可撤销的操作或以任何方式擦除数据)  
+severely  
+parlance  
+
 
 
 
