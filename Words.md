@@ -584,9 +584,6 @@ full-blown  (成熟的)
 bona fide  (善意的 , 真的)  
 diverge  
 Finally, the command tells you which branch you’re on and informs you that it has not diverged from the same branch on the server.  (最后，该命令会告诉您您在哪个分支上，并通知您它没有与服务器上的同一分支分道扬镳。)  
-bona fide  (善意的 , 真的)  
-diverge  
-Finally, the command tells you which branch you’re on and informs you that it has not diverged from the same branch on the server.  (最后，该命令会告诉您您在哪个分支上，并通知您它没有与服务器上的同一分支分道扬镳。)  
 
 
 
