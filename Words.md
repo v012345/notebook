@@ -579,11 +579,13 @@ Unsurprisingly, you need to be located somewhere in a Git repository for this op
 prematurely  terminated  (提前终止)  
 prematurely  (过早地)  
 full-blown  (成熟的)  
-
-
 bona fide  (善意的 , 真的)  
 diverge  
 Finally, the command tells you which branch you’re on and informs you that it has not diverged from the same branch on the server.  (最后，该命令会告诉您您在哪个分支上，并通知您它没有与服务器上的同一分支分道扬镳。)  
+follow suit  (跟风)  
+GitHub changed the default branch name from master to main in mid-2020, and other Git hosts followed suit.  (GitHub 在 2020 年年中将默认分支名称从 master 更改为 main，其他 Git 主机也纷纷效仿。)  
+Let's say you add a new file to your project, a simple README file.  (假设您在项目中添加了一个新文件，一个简单的 README 文件。)  
+
 
 
 
