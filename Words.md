@@ -579,6 +579,10 @@ Unsurprisingly, you need to be located somewhere in a Git repository for this op
 prematurely  terminated  (提前终止)  
 prematurely  (过早地)  
 full-blown  (成熟的)  
+as opposed  (相反地)  
+as opposed to an empty directory  (而不是一个空目录)  
+the pros and cons of each  (各有优劣)  
+musing  (沉思)  
 
 
 

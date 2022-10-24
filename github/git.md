@@ -48,6 +48,12 @@ $ man git-<verb> # windows 也有 man 命令 , 但是没有 get-<verb> 的相关
 $ git <verb> -h # 简短的 手册页
 ```
 
+git add 是支持简单正则的
+
+clone
+```shell
+$ git clone <url> [directory]
+```
 
 
 
