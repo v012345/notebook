@@ -142,7 +142,7 @@ issuing
 malicious  
 escalate  
 capsule  
-criteria  
+criteria  (2)  
 periodically  
 pretend  
 constraint  
@@ -599,6 +599,9 @@ asterisk  (*)
 hyphen  (连字符号)  
 vague  (模糊)  
 strip  (剥离)  
+colloquially  (通俗地说)  
+clutter  (verb 杂乱无章)  
+To prevent the display of merge commits cluttering up your log history, simply add the log option --no-merges.  
 
 
 

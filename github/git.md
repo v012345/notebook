@@ -91,6 +91,10 @@ see what difftool is available on the system.
 git difftool --tool-help
 ```
 
+### git rm <file>
+就是 rm <file> + git add <file>  
+rename 是因为 
+
 
 
 
