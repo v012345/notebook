@@ -220,7 +220,7 @@ acyclic
 unison  
 jagged  
 intent  
-archive  
+archive  (2)  
 cohesive  
 facilitate  
 track  
@@ -590,6 +590,16 @@ Finally, the command tells you which branch you’re on and informs you that it 
 follow suit  (跟风)  
 GitHub changed the default branch name from master to main in mid-2020, and other Git hosts followed suit.  (GitHub 在 2020 年年中将默认分支名称从 master 更改为 main，其他 Git 主机也纷纷效仿。)  
 Let's say you add a new file to your project, a simple README file.  (假设您在项目中添加了一个新文件，一个简单的 README 文件。)  
+You may recall that  (你可能还记得)  
+precisely  (就是)  
+What the heck?  (有没有搞错？)  
+tilde  (~)
+exclamation point  (!)  
+asterisk  (*)  
+hyphen  (连字符号)  
+vague  (模糊)  
+strip  (剥离)  
+
 
 
 
