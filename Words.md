@@ -593,7 +593,7 @@ Let's say you add a new file to your project, a simple README file.  (假设您�
 You may recall that  (你可能还记得)  
 precisely  (就是)  
 What the heck?  (有没有搞错？)  
-tilde  (~)
+tilde  (~)  
 exclamation point  (!)  
 asterisk  (*)  
 hyphen  (连字符号)  
@@ -602,6 +602,19 @@ strip  (剥离)
 colloquially  (通俗地说)  
 clutter  (verb 杂乱无章)  
 To prevent the display of merge commits cluttering up your log history, simply add the log option --no-merges.  
+convincing  (adj 使人信服)  
+desirability  (可取性)  
+tactic  (策略)  
+tray  
+ubiquitous  
+patent  (专利)  
+innovation  (创新)  
+imaginary  (假想 , 虚构)  
+But it's a lot easier to make up imaginary Frequently Asked Questions than it is to discover the real ones.  (但是，编造虚构的常见问题要比发现真实的常见问题容易得多。)  
+sustained  (adj 持续 经久)
+No grand hypothesizing, no visionary pronouncements here—open eyes and accurate note-taking are what's needed most.  (这里没有宏大的假设，也没有有远见的声明——睁大眼睛和准确记笔记是最需要的。)  
+
+
 
 
 
