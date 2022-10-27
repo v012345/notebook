@@ -90,7 +90,7 @@ evaluate  (2)
 discretionary  
 mechanism  
 preceded  
-sophisticated  (2)  
+sophisticated  (3)  (复杂的)
 guideline  
 scenario  
 separate  
@@ -401,7 +401,7 @@ granularity
 introduce  
 deliver  
 shove  
-course  
+course  (2)  
 crippling  
 as it turns out  
 cursive  
@@ -560,7 +560,7 @@ corrupted  (损坏的)
 As with many great things in life, Git began with a bit of creative destruction and fiery controversy.  (与生活中的许多伟大事物一样，Git 始于一些创造性的破坏和激烈的争议。)  
 fiery  
 controversy  (争议)  
-proprietary  (relating to an owner or ownership.an owner; proprietor.)  
+proprietary  (relating to an owner or ownership.an owner; proprietor. 专有的)  
 absorb  (吸收)  
 unworldly  
 instantaneous  
@@ -613,6 +613,19 @@ imaginary  (假想 , 虚构)
 But it's a lot easier to make up imaginary Frequently Asked Questions than it is to discover the real ones.  (但是，编造虚构的常见问题要比发现真实的常见问题容易得多。)  
 sustained  (adj 持续 经久)
 No grand hypothesizing, no visionary pronouncements here—open eyes and accurate note-taking are what's needed most.  (这里没有宏大的假设，也没有有远见的声明——睁大眼睛和准确记笔记是最需要的。)  
+Development is highly iterable, where you can start by forming a basic behaviour, then create new branches to deal with alternate methods of achieving goals, with branches ordered by their desirability, allowing for the AI to have fallback tactics should a particular behaviour fail. This is where they really shine.  (开发是高度可迭代的，您可以从形成基本行为开始，然后创建新的分支来处理实现目标的替代方法，分支按其可取性排序，允许人工智能在特定行为失败时采用后备策略。这是他们真正闪耀的地方。)  
+It is quite how expressive these nodes can be, sometimes operating more as a standard library to manipulate data within the tree itself, than just simply character commands, that really make behaviour trees exciting to me.  (这些节点的表现力非常好，有时更像是一个标准库来操作树本身内的数据，而不仅仅是简单的字符命令，这真的让我兴奋不已)  
+pertinent  (relevant or applicable to a particular matter; apposite)  
+assured  (adj 保证)  
+archetype  (原型)  
+inverter  (逆变器)  
+invert  (颠倒)  
+immensely  (非常 ,  广大地)  
+lend  ( 提供 , 借)  
+analogous  (类似的)  
+drastically  (剧烈地)  
+implication  (意义)  
+
 
 
 
