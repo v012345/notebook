@@ -625,6 +625,10 @@ lend  ( 提供 , 借)
 analogous  (类似的)  
 drastically  (剧烈地)  
 implication  (意义)  
+sod  (草皮)  
+hinges  ()  
+in question  (相关的)  
+
 
 
 
