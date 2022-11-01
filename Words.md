@@ -629,6 +629,7 @@ sod  (草皮)
 hinges  ()  
 in question  (相关的)  
 You can layer failsafes  (您可以分层故障保险)  
+tempting  (迷人的)  
 
 
 
