@@ -631,6 +631,15 @@ in question  (相关的)
 You can layer failsafes  (您可以分层故障保险)  
 tempting  (迷人的)  
 https://tortoisesvn.net/docs/release/TortoiseSVN_en/tsvn-qs-guide.html 
+casual   ()  
+breed  
+tie  
+pretend  
+lull  
+there's no point in  (没有意义)  
+with respect to  (关于 ,相对于 )  
+correspond to   (相当于)  
+
 
 
 
