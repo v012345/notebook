@@ -156,7 +156,7 @@ rarity
 indelible  
 bid  
 pricing  
-retain  
+retain  (2)  
 refactoring
 slightly  
 derive  
@@ -639,67 +639,9 @@ lull
 there's no point in  (没有意义)  
 with respect to  (关于 ,相对于 )  
 correspond to   (相当于)  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+incorporate  (包括)  
+absent  
+subtly  (巧妙的)  
+plausible  (credible)  
+notion  (观念)  
+large gaps in (大的差距)  
