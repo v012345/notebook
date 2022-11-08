@@ -126,7 +126,7 @@ bundle
 persist  
 granular  
 aggregate  (2)  
-prune  
+prune  (2)  修剪  
 convention  
 invade  
 invasion  
@@ -260,7 +260,7 @@ digest  (2)
 significance  
 ordinate  
 dimension  
-mandatory  
+mandatory  (2)   强制的  
 theoretical  
 shimmer  
 sentinel  
@@ -370,7 +370,7 @@ tricky
 hygiene  (2)  
 agnostic  (2)
 imperative  
-invocation  
+invocation  (调用 ,开会祈祷)  
 nifty  
 guru  
 untangle  (2)  
@@ -647,3 +647,7 @@ plausible  (credible)
 notion  (观念)  
 large gaps in (大的差距)  
 sparse  (稀疏的)  
+typo  (错字)  
+demystify   (verb  make (a difficult or esoteric subject) clearer and easier to understand. 揭开神秘面纱 )  
+in lieu of  (代替)  
+
