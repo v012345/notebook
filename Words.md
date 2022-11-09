@@ -585,7 +585,7 @@ the pros and cons of each  (各有优劣)
 musing  (沉思)  
 
 bona fide  (善意的 , 真的)  
-diverge  
+diverge  (2)  (偏离)
 Finally, the command tells you which branch you’re on and informs you that it has not diverged from the same branch on the server.  (最后，该命令会告诉您您在哪个分支上，并通知您它没有与服务器上的同一分支分道扬镳。)  
 follow suit  (跟风)  
 GitHub changed the default branch name from master to main in mid-2020, and other Git hosts followed suit.  (GitHub 在 2020 年年中将默认分支名称从 master 更改为 main，其他 Git 主机也纷纷效仿。)  
@@ -650,4 +650,5 @@ sparse  (稀疏的)
 typo  (错字)  
 demystify   (verb  make (a difficult or esoteric subject) clearer and easier to understand. 揭开神秘面纱 )  
 in lieu of  (代替)  
+for clarity’s sake  (为了清楚起见)  
 
