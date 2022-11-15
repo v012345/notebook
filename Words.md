@@ -531,7 +531,7 @@ accommodate
 constant  (常量)(不断的,长年的)  
 Fortunately, CMake does an excellent job in accommodating different styles and historical approaches to dependency management while keeping up with the constant evolution of industry-approved standards.  (幸运的是，CMake 在适应依赖管理的不同风格和历史方法方面做得非常出色，同时跟上行业认可标准的不断发展)  
 supply  
-rewind  
+rewind  (2)  倒带  
 the bells and whistles  (花里胡哨)  
 transitive  
 phase out  (淘汰)  
@@ -651,4 +651,6 @@ typo  (错字)
 demystify   (verb  make (a difficult or esoteric subject) clearer and easier to understand. 揭开神秘面纱 )  
 in lieu of  (代替)  
 for clarity’s sake  (为了清楚起见)  
+thorough  (彻底的)  
+
 
