@@ -652,5 +652,7 @@ demystify   (verb  make (a difficult or esoteric subject) clearer and easier to 
 in lieu of  (代替)  
 for clarity’s sake  (为了清楚起见)  
 thorough  (彻底的)  
+embrace  (拥抱)  
+silo  (筒仓)  
 
 
