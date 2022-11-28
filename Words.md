@@ -426,7 +426,7 @@ to reason about
 tedious  (2)
 perspective  
 cryptic  
-propose  
+propose  (2)  (建议)  
 outright  
 analogy  
 skim  
@@ -654,5 +654,6 @@ for clarity’s sake  (为了清楚起见)
 thorough  (彻底的)  
 embrace  (拥抱)  
 silo  (筒仓)  
+sprint  (短跑 , 猛然使劲一冲)  
 
 
