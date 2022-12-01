@@ -655,5 +655,5 @@ thorough  (彻底的)
 embrace  (拥抱)  
 silo  (筒仓)  
 sprint  (短跑 , 猛然使劲一冲)  
-
+peril  (危险)  
 
