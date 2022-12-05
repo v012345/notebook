@@ -656,4 +656,6 @@ embrace  (拥抱)
 silo  (筒仓)  
 sprint  (短跑 , 猛然使劲一冲)  
 peril  (危险)  
+podium  (讲台)  
+
 
