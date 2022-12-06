@@ -494,7 +494,7 @@ anticipated
 get under our skin  (深入我们的皮肤)  
 bearable  
 impossibly tedious  (令人难以置信的乏味)  
-frustrating  
+frustrating  (2)(泄气的)
 handly ever  (得心应手)  
 pedantic  
 diagnostic  
@@ -657,5 +657,6 @@ silo  (筒仓)
 sprint  (短跑 , 猛然使劲一冲)  
 peril  (危险)  
 podium  (讲台)  
+determine  (决定)  
 
 
