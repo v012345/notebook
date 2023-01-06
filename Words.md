@@ -659,4 +659,5 @@ peril  (危险)
 podium  (讲台)  
 determine  (决定)  
 catastrophic  (灾难性的) 
- 
+extraneous  (外来的)  
+
