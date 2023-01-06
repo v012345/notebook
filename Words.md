@@ -658,4 +658,5 @@ sprint  (短跑 , 猛然使劲一冲)
 peril  (危险)  
 podium  (讲台)  
 determine  (决定)  
-
+catastrophic  (灾难性的) 
+ 
