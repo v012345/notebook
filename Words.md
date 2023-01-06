@@ -255,7 +255,7 @@ dictation
 indication  
 superfluous  
 proven  
-dedicated  (3)
+dedicated  (4)  (专用的)
 digest  (2)  
 significance  
 ordinate  
@@ -581,7 +581,7 @@ prematurely  (过早地)
 full-blown  (成熟的)  
 as opposed  (相反地)  
 as opposed to an empty directory  (而不是一个空目录)  
-the pros and cons of each  (各有优劣)  
+the pros and cons of each  (各有优劣)   (2)
 musing  (沉思)  
 
 bona fide  (善意的 , 真的)  
@@ -658,5 +658,4 @@ sprint  (短跑 , 猛然使劲一冲)
 peril  (危险)  
 podium  (讲台)  
 determine  (决定)  
-
 
