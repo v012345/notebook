@@ -424,7 +424,7 @@ tangible
 exemplary  
 to reason about  
 tedious  (2)
-perspective  
+perspective  (2)  (透视)  
 cryptic  
 propose  (2)  (建议)  
 outright  
