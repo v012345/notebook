@@ -660,4 +660,6 @@ podium  (讲台)
 determine  (决定)  
 catastrophic  (灾难性的) 
 extraneous  (外来的)  
+legitimacy  (合法)  
+
 
