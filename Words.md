@@ -160,7 +160,7 @@ retain  (2)
 refactoring
 slightly  
 derive  
-pivot  
+pivot  (2)  (枢纽 在枢轴上转动)
 counterpart  
 presence  (2)  
 escalation  
@@ -663,5 +663,6 @@ extraneous  (外来的)
 legitimacy  (合法)  
 is of (has the characteristic of)  
 orthogonal  正交的  
+toggle  (切换)  
 
 
