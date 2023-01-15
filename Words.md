@@ -662,5 +662,6 @@ catastrophic  (灾难性的)
 extraneous  (外来的)  
 legitimacy  (合法)  
 is of (has the characteristic of)  
+orthogonal  正交的  
 
 
