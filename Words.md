@@ -424,7 +424,7 @@ tangible
 exemplary  
 to reason about  
 tedious  (2)
-perspective  (2)  (透视)  
+perspective  (3)  (透视)  
 cryptic  
 propose  (2)  (建议)  
 outright  
@@ -560,7 +560,7 @@ corrupted  (损坏的)
 As with many great things in life, Git began with a bit of creative destruction and fiery controversy.  (与生活中的许多伟大事物一样，Git 始于一些创造性的破坏和激烈的争议。)  
 fiery  
 controversy  (争议)  
-proprietary  (relating to an owner or ownership.an owner; proprietor. 专有的)  
+proprietary  (relating to an owner or ownership.an owner; proprietor. 专有的)  (2)  
 absorb  (吸收)  
 unworldly  
 instantaneous  
