@@ -665,5 +665,5 @@ is of (has the characteristic of)
 orthogonal  正交的  
 toggle  (切换)  
 adsorption  (吸附)  
-
+apart from  (除了)  
 
