@@ -667,4 +667,7 @@ toggle  (切换)
 adsorption  (吸附)  
 apart from  (除了)  
 superimposed  (叠加的)  
+innovative   (创新的)  
+trajectory  (弹道)  
+crop  (作物 , 修剪)  
 
