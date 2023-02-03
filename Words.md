@@ -502,7 +502,7 @@ down-to-earth
 lenient  
 corporate  
 if you are particularly driven individual (如果你特别有动力)  
-indispensable  
+indispensable  (2)  (必不可少的)  
 arcane  
 viability  
 dedicate  
