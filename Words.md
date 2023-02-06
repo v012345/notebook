@@ -670,4 +670,6 @@ superimposed  (叠加的)
 innovative   (创新的)  
 trajectory  (弹道)  
 crop  (作物 , 修剪)  
+settle  (解决 ,结清)  
+
 
