@@ -312,7 +312,7 @@ legacy
 boilerplate  
 bloated  
 sufficient  
-disambiguate  
+disambiguate  (2)  消除歧义  
 catalogue  
 mangle  
 Aggressive  
